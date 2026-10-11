@@ -1,0 +1,15 @@
+AUSTRALIA
+  named watercourse lines: 1,163,330
+  rivers whose only snapped area belonged to a bigger river (dropped): 5,897; rivers with some pieces capped: 1,767
+  Aboriginal answer key: 1,271 place-name words; character model AUC 0.973, recall 88%, false positive rate 5%
+  named rivers: 44,935; with a HydroRIVERS area: 29,205
+  origins: english 25,475, personal 6,208, aboriginal (model) 5,440, opaque 3,469, no specific 1,179, french 859, aboriginal (list) 711, english (loanword) 642, spanish 601, dutch 281, german 39, hispanic 31
+  largest: Murray River (new), Darling River (new), Little Bogan River (old), Barwon River (new), Cooper Creek (new), Cooper Creek (new), Bokhara River (old), Eyre Creek (new), Georgina River (new), Georgina River (new), Culgoa River (old), Warburton Creek (new), Murrumbidgee River (old), Diamantina River (new), Diamantina River (new), Victoria River (new), Thomson River (new), Templeton River (new), Lachlan River (?), Fitzroy River (new), Murchison River (new), Macquarie River (new), Daly River (new), Barcoo River (new), Ord River (new)
+
+NEW ZEALAND
+  named waterway lines: 29,048
+  rivers whose only snapped area belonged to a bigger river (dropped): 711; rivers with some pieces capped: 75
+  names found in the NZ Gazetteer: 92%
+  named rivers: 9,957; with a HydroRIVERS area: 4,953
+  origins: maori (gazetteer) 6,548, english (gazetteer) 2,607, english 389, maori (spelling) 171, not maori (spelling) 101, personal 72, no specific 34, french 19, spanish 8, dutch 8
+  largest: Clutha River (new), Waikato River (old), Waitaki River (old), Whanganui River (old), Clutha River (new), Tāngarākau River (old), Rangitīkei River (old), Ruamāhanga River (old), Waiau Toa (old), Taieri River (old), Rakaia River (old), Hurunui River (old), Waimakariri River (old), Kaiwara River (old), Rangitāiki River (old), Waiau Uwha River (old), Ngatamawahine Stream (old), Te Ārai River (old), Tukituki River (old), Ōngarue River (old), Motueka River (old), Whangaehu River (old), Ashburton River (new), Ahuriri River (old), Ōhau River (old)

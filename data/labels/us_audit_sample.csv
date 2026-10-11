@@ -1,0 +1,401 @@
+audit_id,name,state,da_km2,band,origin,old,how,p_native,gnis_history,gnis_id
+1,Menominee River,Wisconsin,10535.0877,>10k,native (list),1.0,,0.8539241248839168,,632106
+2,Meadow Creek,Oregon,3.0582,<10,english,0.0,meadow,,,1146054
+3,Yazoo River,Mississippi,34892.71289999999,>10k,native (list),1.0,,0.9133649795926071,,695222
+4,Mays Canyon Creek,Oregon,43.0371,10-100,english,0.0,mays,,,1123877
+5,Flat Branch,Texas,16.5033,10-100,english,0.0,flat,,,1357421
+6,Cayadutta Creek,New York,165.13650000000004,100-1k,native (model),1.0,,0.8548342580001432,,969978
+7,Kansas River,Missouri,149101.16219999976,>10k,native (list),1.0,,0.8595055847903404,,485184
+8,Casnau Creek,California,2.6415,<10,native (model),1.0,,0.6576619084046859,,220675
+9,Nolin River,Kentucky,1776.6027,1k-10k,personal,0.0,nolin,,,499512
+10,Spokane Creek,Oregon,6.0372,<10,native (list),1.0,,0.7058584785464624,,1150133
+11,Quinn River,Nevada,10189.9251,>10k,personal,0.0,quinn,,,863287
+12,West Fork Choctawhatchee River,Alabama,919.1807999999997,100-1k,native (list),1.0,,0.9982188194633765,,155301
+13,Kennebec River,Maine,24485.19750000001,>10k,native (list),1.0,,0.9275297868015914,,569110
+14,Tauaninny Branch,Missouri,14.6475,10-100,native (model),1.0,,0.9405324205907419,,727482
+15,Bogue Falema Creek,Mississippi,62.0469,10-100,native (list),1.0,,0.6080262365755221,,692663
+16,Wingo Branch,Mississippi,2.3418,<10,native (list),1.0,wingo,,,679784
+17,Daniels Branch,Kentucky,3.591,<10,personal,0.0,daniels,,,490565
+18,Crooked Creek,Virginia,186.42150000000004,100-1k,english,0.0,crooked,,,1482847
+19,Peshtigo River,Wisconsin,2920.1796000000004,1k-10k,native (list),1.0,,0.9046166677154257,"An Indian word meaning ""wild goose river.""",1580126
+20,Oconto River,Wisconsin,2530.0431,1k-10k,native (list),1.0,,0.93848542133487,,1580049
+21,Dry Creek,Kansas,51.19739999999999,10-100,english,0.0,dry,,,474453
+22,West Fork Wallowa River,Oregon,84.3318,10-100,native (list),1.0,,0.9129808970845186,,1152122
+23,Whittemore Creek,North Carolina,4.6026,<10,personal,0.0,whittemore,,,1016644
+24,West Fork Pushepatapa Creek,Louisiana,61.3224,10-100,native (list),1.0,,0.9964937655148675,,540323
+25,Tugaloo Creek,South Carolina,9.0198,<10,native (model),1.0,,0.9609709171072024,,1251226
+26,Little Kickapoo Creek,Illinois,31.995,10-100,native (list),1.0,,0.9628321899850182,,412364
+27,Llano River,Texas,11567.12039999999,>10k,english,0.0,llano,,"A Spanish phrase meaning ""river of the plain.""",1374638
+28,Yuba River,Idaho,125.21430000000001,100-1k,native (list),1.0,,0.9674246608051363,,393776
+29,Cowikee Creek,Georgia,1210.5603,1k-10k,native (model),1.0,,0.9925723432209563,,155041
+30,Long Branch,West Virginia,1.0314,<10,english,0.0,long,,,1542340
+31,Neosho River,Oklahoma,32556.756599999993,>10k,native (list),1.0,,0.9760755019679943,"An Indian word meaning ""clear cold water.""",1095788
+32,Bear Island Creek,Georgia,289.4823,100-1k,english,0.0,bear island,,,1220407
+33,Penobscot River,Maine,21779.36279999998,>10k,native (list),1.0,,0.7836891104681173,,573182
+34,Nicatous Stream,Maine,256.3137,100-1k,native (list),1.0,,0.615108002285232,,572158
+35,McPeak Creek,North Dakota,13.338,10-100,personal,0.0,mcpeak,,,1034998
+36,Middle Fork Flathead River,Montana,2939.5773000000004,1k-10k,english,0.0,flat+head,,,787275
+37,Meduxnekeag Stream,Maine,49.1832,10-100,native (list),1.0,,0.5889814258032655,,571117
+38,Snake Lick Creek,Kentucky,27.2052,10-100,english,0.0,snake lick,,,503841
+39,Piute Creek,California,143.2071,100-1k,native (model),1.0,,0.5904950970209791,,267132
+40,Coosada Creek,Alabama,15.752699999999999,10-100,native (list),1.0,,0.7648423569235826,,116600
+41,Tuckasegee River,North Carolina,1900.8639000000003,1k-10k,native (list),1.0,,0.9659512159024984,,1016248
+42,Deer Creek,Colorado,8.1126,<10,english,0.0,deer,,,187737
+43,Wabasha Creek,Minnesota,186.37109999999998,100-1k,native (list),1.0,,0.993608911999384,,653696
+44,Little Hickory Creek,Oklahoma,58.34700000000001,10-100,english,0.0,hickory,,,1094776
+45,Tombigbee River,Alabama,51921.10979999999,>10k,native (list),1.0,,0.5514044017652769,,692339
+46,Tonawanda Creek,New York,1294.7508,1k-10k,native (list),1.0,,0.9484237387768653,,967653
+47,Big Smoky Creek,Idaho,557.6634,100-1k,english,0.0,smoky,,,377589
+48,South Raccoon River,Iowa,2944.5623999999984,1k-10k,english,0.0,raccoon,,,461799
+49,Rockcamp Run,Ohio,11.0835,10-100,english,0.0,rock+camp,,,1060554
+50,Chotaw Creek,Louisiana,7.0605,<10,native (model),1.0,,0.9628741843755226,,533939
+51,Tallyhaly Creek,Alabama,21.615299999999998,10-100,native (model),1.0,,0.6064370075515516,,127657
+52,Bogue Chitta Creek,Alabama,23.6646,10-100,native (model),1.0,,0.9967095148813795,,114670
+53,Manistique River,Michigan,3809.9520000000007,1k-10k,native (list),1.0,,0.5458618929256339,,1620687
+54,Poween Creek,Washington,11.8188,10-100,native (model),1.0,,0.8706085772241402,,1507610
+55,Sally Creek,Virginia,1.8144,<10,english,0.0,sally,,,1473971
+56,Minnesota River,Minnesota,43550.98109999998,>10k,native (list),1.0,,0.9490705220212493,"The name Minnesota was originally given to the river by the Dakota Indians and was recorded as ""Waddapawmenesotor"" by Carver in 1767. In Santee dialect ""watpa"" means river and ""mi'-ni-so-ta"" means ""whitish water."" The name was given to the river for its cloudy appearance from the silt it carried. Romantics misconstrued this name and incorrectly rendered it as ""sky blue water"" and ""sky tinted water."" (KS-T33/p199)",659759
+57,Chetwot Creek,Washington,1.4706,<10,native (model),1.0,,0.7815945719278583,,1517671
+58,Gunnison River,Colorado,20746.566000000003,>10k,personal,0.0,gunnison,,,201748
+59,East Fork Little Bogue Falaya,Louisiana,43.933499999999995,10-100,native (list),1.0,,0.9067361312295499,,560688
+60,South Platte River,Nebraska,60258.89519999988,>10k,dutch,0.0,platte,,,201759
+61,Sassarixa Swamp,North Carolina,19.5858,10-100,native (model),1.0,,0.8657997627869675,,1025684
+62,South Sulphur River,Texas,1664.1692999999996,1k-10k,english,0.0,sulphur,,,1376229
+63,Chuquatonchee Creek,Mississippi,1341.0657000000003,1k-10k,native (list),1.0,,0.9878379945393102,,692904
+64,Rattlesnake Creek,California,47.5308,10-100,english,0.0,rattlesnake,,,273216
+65,Taboose Creek,California,74.8044,10-100,native (model),1.0,,0.8179875095602799,,268057
+66,Muscatatuck River,Indiana,2953.8278999999998,1k-10k,native (model),1.0,,0.9905485740106861,,439897
+67,Swannanoa River,North Carolina,343.8675,100-1k,native (list),1.0,,0.9077215550897375,,1015976
+68,Arrow Creek,Montana,2908.0557,1k-10k,english,0.0,arrow,,,779145
+69,Cedar Creek,South Carolina,180.50490000000005,100-1k,english,0.0,cedar,,,1247201
+70,Thief River,Minnesota,2712.3093,1k-10k,english,0.0,thief,,,653128
+71,East Cedar Creek,Kansas,26.6931,10-100,english,0.0,cedar,,,470483
+72,Wabash River,Indiana,16690.466700000004,>10k,native (list),1.0,,0.9603324933656161,"The name is derived from the Miami name. The Indian translation suggests that it was named for being white, bright, inanimate, or natural. Speculation is that this refers to a limestone bed in the upper part of the stream. (IN-T101/p336)",449850
+73,Cabin Creek,Montana,45.49230000000001,10-100,english,0.0,cabin,,,800526
+74,Chicopee Creek,Idaho,7.0794,<10,native (list),1.0,,0.9733493937474207,,371995
+75,Green River,Utah,114359.7572999998,>10k,english,0.0,green,,,1428399
+76,Coleto Creek,Texas,1395.4868999999997,1k-10k,spanish,0.0,coleto,,,1354780
+77,Roberts Run,Ohio,6.8589,<10,french,0.0,roberts,,,1082180
+78,New Hermon Fork,Tennessee,37.3635,10-100,personal,0.0,hermon,,,1295496
+79,Talapus Creek,Idaho,2.5758,<10,native (model),1.0,,0.9148466540016812,,391821
+80,Fish Creek,Wisconsin,339.85260000000005,100-1k,english,0.0,fish,,,1564985
+81,Mingo Creek,Oklahoma,157.8096,100-1k,native (list),1.0,mingo,,,1095434
+82,Willow Creek,South Dakota,481.35330000000005,100-1k,english,0.0,willow,,,1259015
+83,Box Elder Creek,Montana,2988.0971999999997,1k-10k,english,0.0,box elder,,,769151
+84,Robbins Branch,Mississippi,1.7532,<10,english,0.0,rob+bins,,,676697
+85,Flathead River,Montana,23137.2153,>10k,english,0.0,flat+head,,,783518
+86,Upper Lord Brook,Maine,27.4842,10-100,english,0.0,lord,,,577625
+87,Black Thunder Creek,Wyoming,1461.7431,1k-10k,english,0.0,black thunder,,,1598221
+88,Susan River,California,3705.2459999999996,1k-10k,personal,0.0,susan,,"Susan River was named for Susan Roop, daughter of Issac Roop, an early settler.",235834
+89,James River,Virginia,26671.564799999964,>10k,french,0.0,james,,,1488853
+90,Big Tuni Creek,North Carolina,16.1703,10-100,native (model),1.0,,0.9557176860537712,,1009389
+91,Sockwa Creek,Washington,1.3671,<10,native (model),1.0,,0.9604765201424458,,1508486
+92,Ponakin Brook,Massachusetts,4.2804,<10,native (model),1.0,,0.9119000738556328,,610888
+93,Line Creek,Oregon,3.4965,<10,english,0.0,line,,,1145045
+94,Pryor Creek,Montana,1559.9753999999996,1k-10k,personal,0.0,pryor,,,789220
+95,Merrimack River,Massachusetts,12951.251100000001,>10k,native (list),1.0,,0.6830573582236376,"""Merrimack "" is an Indian word meaning ""sound of the falls,"" (MGB 1932) Sturgeon, or swift water (Steel) (Douglas-Lithgow 1909).",619363
+96,Pearl River,Louisiana,18884.96729999999,>10k,english,0.0,pearl,,,1627887
+97,South Fork Poker Jim Creek,Montana,10.1763,10-100,english,0.0,poker jim,,,791028
+98,Beaver Creek,Oklahoma,2243.0007,1k-10k,english,0.0,beaver,,,1089940
+99,Illinois River,Illinois,74495.82599999999,>10k,native (list),1.0,,0.4891890082917538,,410769
+100,Castle Creek,Idaho,4.7952,<10,english,0.0,castle,,,379000
+101,Legunita Wash,Arizona,5.0094,<10,native (model),1.0,,0.6024166338850686,,6970
+102,Rayburn Creek,Michigan,7.1676,<10,english,0.0,ray+burn,,,635681
+103,Tacobi Creek,California,0.6921,<10,native (model),1.0,,0.914558673038245,,250226
+104,Potaman Creek,Idaho,6.9786,<10,native (model),1.0,,0.7609405268681154,,388812
+105,Susquehanna River,Maryland,71222.7042,>10k,native (list),1.0,,0.9608214310945719,,591690
+106,Little Washougal River,Washington,62.9856,10-100,native (model),1.0,,0.7013816901203861,,1522318
+107,Middle Fork North Fork Klaskanine River,Oregon,7.1883,<10,native (model),1.0,,0.6672824047581609,,1124099
+108,Sugar River,Illinois,1969.8380999999997,1k-10k,english,0.0,sugar,,,1575030
+109,Road Creek,Kentucky,9.495000000000001,<10,english,0.0,road,,,502010
+110,Aransas Creek,Texas,283.599,100-1k,native (model),1.0,,0.617434708883058,,1329650
+111,Naschitti Wash,New Mexico,93.83039999999998,10-100,native (model),1.0,,0.7433893979847332,,902835
+112,Umpqua River,Oregon,12109.337099999999,>10k,native (list),1.0,,0.9897918929086085,,1151643
+113,Flat Creek,Tennessee,41.6178,10-100,english,0.0,flat,,,1284375
+114,Thomas Creek,Oregon,372.0852,100-1k,english,0.0,tho+mas,,"Thomas Creek was named for Frederick Thomas, who obtained a donation land claim on the banks of the stream in 1846.",1163301
+115,Line Creek,Kentucky,178.34309999999996,100-1k,english,0.0,line,,,496583
+116,Bedford Branch,Kentucky,6.6465,<10,english,0.0,bed+ford,,,510496
+117,Stehekin River,Washington,883.8378000000002,100-1k,native (list),1.0,,0.2771668418532354,,1526532
+118,Niagara Creek,California,6.1749,<10,native (list),1.0,,0.9741281107836679,,264083
+119,Hashuqua Creek,Mississippi,372.8034,100-1k,native (list),1.0,,0.9695711996041189,,671001
+120,Wabana Creek,Minnesota,116.5131,100-1k,native (model),1.0,,0.951020808298505,,658861
+121,Ahtanum Creek,Washington,430.0884,100-1k,native (model),1.0,,0.8287133317113489,,1515756
+122,Shannondale Branch,Missouri,9.6165,<10,native (model),1.0,,0.6512891543095815,,726270
+123,South Fork Ninnescah River,Kansas,2099.4857999999995,1k-10k,native (model),1.0,,0.9566465699487404,,485476
+124,Hughes Fork,Idaho,156.1347,100-1k,english,0.0,hug+hes,,,383519
+125,Salmon River,Oregon,34949.26170000002,>10k,english,0.0,salmon,,,400069
+126,Wetauwanchu Brook,Connecticut,1.7298,<10,native (model),1.0,,0.9786778901567252,,212038
+127,Pilchuck River,Washington,342.1979999999999,100-1k,native (model),1.0,,0.6840236431716052,,1524421
+128,Leopard Creek,Colorado,36.7191,10-100,english,0.0,leopard,,,190549
+129,Black Warrior River,Alabama,16260.099299999994,>10k,english,0.0,black warrior,,A translation of the Choctaw Indian word tuscaloosa.,159191
+130,San Miguel Creek,Texas,2211.781500000001,1k-10k,spanish,0.0,san miguel,,,1375975
+131,Middle Branch Oswegatchie River,New York,296.955,100-1k,native (model),1.0,,0.9106993406193807,,976656
+132,Gila River,Arizona,117570.76650000003,>10k,native (list),1.0,,0.6073459392162582,,42838
+133,Stamans Run,Pennsylvania,6.4467,<10,native (model),1.0,,0.524852008599876,,1188386
+134,South Persimmon Creek,Oklahoma,120.3714,100-1k,english,0.0,persimmon,,,1098272
+135,Watsontown Run,Pennsylvania,4.0842,<10,native (model),1.0,,0.9462128278296497,,1210091
+136,Missouri Creek,Utah,234.59490000000005,100-1k,transferred,1.0,missouri,,,171854
+137,Saugatuck River,Connecticut,231.61589999999998,100-1k,native (list),1.0,,0.9820311220191545,,210655
+138,Hiawatha Run,Michigan,5.0814,<10,native (list),1.0,,0.8501457949186331,,1620189
+139,Chippewa Creek,Oklahoma,20.550599999999996,10-100,native (list),1.0,,0.9823621351131919,,1091309
+140,Sebands Branch,Tennessee,1.7541,<10,native (model),1.0,,0.5479515573299044,,1301009
+141,Ross Creek,Montana,8.613,<10,spanish,0.0,ross,,,789784
+142,Kessing Creek,California,23.8158,10-100,native (model),1.0,,0.792976839804683,,244280
+143,Casselman River,Pennsylvania,1536.0344999999998,1k-10k,personal,0.0,casselman,,,1200066
+144,Long Tom River,Oregon,1057.4081999999999,1k-10k,english,0.0,long tom,,,1123452
+145,Cahokia Chute,Illinois,176.6817,100-1k,ethnonym,1.0,,0.9793914483326954,,426289
+146,Leona River,Texas,1742.8059000000005,1k-10k,spanish,0.0,leona,,,1374506
+147,Bogard Creek,Tennessee,35.85509999999999,10-100,personal,0.0,bogard,,,1327676
+148,Poison Creek,Idaho,68.3118,10-100,english,0.0,poison,,,374474
+149,Waptus River,Washington,137.30219999999997,100-1k,native (model),1.0,,0.978335945310756,,1527799
+150,Red Lake River,North Dakota,14657.653799999991,>10k,english,0.0,red,,,649867
+151,Mile Brook,Massachusetts,2.1014999999999997,<10,english,0.0,mile,,,615229
+152,Hubbard Creek,Texas,3328.9748999999997,1k-10k,english,0.0,hub+bard,,,1374168
+153,North Branch Kishwaukee River,Illinois,103.9806,100-1k,native (list),1.0,,0.9944278278844411,,414567
+154,Humboldt River,Nevada,32270.76989999998,>10k,english,0.0,,0.08832611169397588,,860071
+155,Des Moines River,Illinois,37427.708699999974,>10k,french,0.0,des moines,,,465582
+156,Bays Fork,Kentucky,209.69279999999998,100-1k,english,0.0,bays,,,486497
+157,Roanoke River,North Carolina,24403.173299999988,>10k,native (list),1.0,,0.8201955579641,First named Hocomawananch by the Indian population; name Rorenock was applied by European settlers in 1670. Col. Cadwallader Jones labeled it the Occaneechi River on his 1693 map; labeled Staunton River on 1727 survey of Virginia-North Carolina boundary. An Indian word designating a kind of shell used for money.,1502110
+158,Little Peshtigo River,Wisconsin,206.9793,100-1k,native (list),1.0,,0.9046166677154257,,1579695
+159,Black Creek,Tennessee,109.18709999999999,100-1k,english,0.0,black,,,1277562
+160,Webster Run,West Virginia,2.7414,<10,personal,0.0,webster,,,1553397
+161,Missouri River,Illinois,1281937.6043999975,>10k,native (list),1.0,missouri,,"The popular but erroneous conception that the name means ""muddy water"" arose from the fact that Marquette gave it the indigenous name ""Pekitanoui"" meaning ""muddy"".  Early white explorers first called the stream ""Missouri"" after a tribe of Indians who lived on its banks and whose name meant ""people with wooden canoes."" (Robert Ramsay placename file).  The variant name ""Emasulia Sipiwi"" means ""river of boatmen"" in the Peoria language.",756398
+162,Pellaphalia Creek,Mississippi,35.3169,10-100,native (list),1.0,,0.5799704428426582,,675580
+163,Kolingo Creek,California,2.9006999999999996,<10,native (model),1.0,,0.6027438079327583,,244361
+164,Scioto River,Ohio,16862.06249999999,>10k,native (list),1.0,,0.7864749701190973,Coordinates verified.,1072258
+165,Papaw Run,West Virginia,2.5389,<10,native (model),1.0,,0.9031525098402696,,1549517
+166,Maher Creek,Oklahoma,4.5855,<10,personal,0.0,maher,,,1095095
+167,Little Pokegama River,Wisconsin,17.1207,10-100,native (list),1.0,,0.9892413385479862,,1568371
+168,Calcasieu River,Louisiana,11294.4069,>10k,native (list),1.0,,0.2480141090680856,,553857
+169,Nueske Creek,Washington,2.8989,<10,native (model),1.0,,0.5674449406979666,,1523928
+170,Little Missouri River,Arkansas,5437.863900000008,1k-10k,transferred,1.0,missouri,,,77521
+171,Hurricane Creek,Alabama,135.84600000000003,100-1k,english,0.0,hurricane,,,151835
+172,Pocotaligo River,South Carolina,1051.2144000000003,1k-10k,native (model),1.0,,0.9752446558356035,,1250198
+173,Little Chickalah Creek,Arkansas,22.8582,10-100,native (list),1.0,,0.9942263683852194,,72380
+174,Allegheny River,Pennsylvania,49475.73330000001,>10k,native (list),1.0,,0.36183532995985307,Delaware Indian name meaning 'fine river' or 'beautiful river'.,1209386
+175,Klamath River,California,34774.0911,>10k,native (list),1.0,,0.29294767417744083,,266887
+176,Centennial Wash,Arizona,3946.5044999999996,1k-10k,english,0.0,centennial,,,2688
+177,South Fork Kentucky River,Kentucky,1937.1671999999996,1k-10k,transferred,1.0,,0.8791843486106825,,515545
+178,Sweetwater Creek,Texas,1079.7525,1k-10k,english,0.0,sweet+water,,,1348143
+179,Yellow Water Creek,Montana,201.04829999999998,100-1k,english,0.0,yellow,,Name in use since 1880's,777048
+180,Clearwater River,Washington,24304.323599999978,>10k,english,0.0,clear+water,,,379406
+181,Leh-tso-bii-to Wash,New Mexico,3.0114,<10,native (model),1.0,,0.5786607634891122,,891038
+182,New York Slough,California,42075.4185,>10k,spanish,0.0,york,,,234362
+183,Citico Creek,Tennessee,20.1132,10-100,native (model),1.0,,0.7009225985564407,,1280568
+184,Loblockee Creek,Alabama,122.89410000000001,100-1k,native (model),1.0,,0.8192724340162453,,152133
+185,Grand River,Missouri,20429.1504,>10k,english,0.0,grand,,,718673
+186,Iowa River,Illinois,32672.411099999998,>10k,native (list),1.0,,0.9604704220176637,,457834
+187,Wilson Branch,North Carolina,1.2717,<10,english,0.0,wil+son,,,997434
+188,Castor River Diversion Channel,Missouri,3087.8928,1k-10k,english,0.0,castor river diversion,,,715483
+189,Martell Creek,Michigan,12.0402,10-100,english,0.0,mar+tell,,,631646
+190,Upper Sevenmile Creek,Montana,438.0435000000001,100-1k,english,0.0,seven+mile,,,777938
+191,Mohave Creek,Montana,4.4379,<10,native (list),1.0,,0.6202832823849295,,787537
+192,Satus Creek,Washington,1450.2716999999996,1k-10k,native (model),1.0,,0.6246852301534772,,1508126
+193,Drakes Creek,Kentucky,1218.9816,1k-10k,english,0.0,drakes,,,491096
+194,Elk River,West Virginia,3971.183400000002,1k-10k,english,0.0,elk,,,1551032
+195,Ohio River,Missouri,524603.4515999997,>10k,native (list),1.0,,0.9477679418836412,"An Iroquois Indian word meaning ""beautiful river.""",425264
+196,Dutchman Creek,Texas,216.84420000000003,100-1k,english,0.0,dutchman,,,1373509
+197,Little Creek,Oregon,4.0509,<10,english,0.0,little,,,1123169
+198,South Piney Creek,Wyoming,186.63660000000002,100-1k,english,0.0,piney,,,1603194
+199,Quaw Creek,Montana,15.84,10-100,native (model),1.0,,0.9593234466870673,,789285
+200,Saginaw River,Michigan,16131.115800000003,>10k,native (list),1.0,,0.8299548887847892,,636503
+201,West Kill,New York,117.63449999999999,100-1k,english,0.0,west,,,977475
+202,Pemigewasset River,New Hampshire,2525.3495999999996,1k-10k,native (list),1.0,,0.9492028586965884,"The word is of Indian derivation, said to mean ""crooked place of pines.""",872478
+203,Auger Creek,Arizona,29.0385,10-100,english,0.0,auger,,,25842
+204,Lower Atchafalaya River,Louisiana,252330.11550000013,>10k,native (list),1.0,,0.9231120688880949,,1627574
+205,Cannonball River,North Dakota,11109.144600000003,>10k,english,0.0,cannonball,,,1035898
+206,North River,Virginia,2121.1848,1k-10k,english,0.0,north,,,1485916
+207,Mohave Wash,California,13.0959,10-100,native (list),1.0,,0.6202832823849295,,246056
+208,Indian Creek,Ohio,280.8981,100-1k,english,0.0,indian,,,436742
+209,Schep Creek,Texas,49.0959,10-100,dutch,0.0,schep,,,1367828
+210,Chariton River,Missouri,6156.7911,1k-10k,native (model),1.0,,0.5137227116304453,,455352
+211,Deadhorse Creek,Oregon,1.359,<10,english,0.0,dead+horse,,,1140716
+212,Little Burgaw Creek,North Carolina,5.8095,<10,native (list),1.0,,0.0789807734079434,,1003275
+213,Spokane River,Washington,16217.003700000001,>10k,native (list),1.0,,0.7058584785464624,,391131
+214,Arikaree River,Nebraska,4654.029600000001,1k-10k,native (list),1.0,,0.2154012598210029,,835484
+215,Little East Fork Ohio Brush Creek,Ohio,26.321399999999997,10-100,native (model),1.0,,0.774154600910076,,1042660
+216,Tallahatchie River,Mississippi,13353.173100000002,>10k,native (list),1.0,,0.9726638323986229,,691621
+217,Potomac River,Maryland,37960.93890000002,>10k,native (list),1.0,,0.9688841188014897,"Heads at the junction of North Branch Potomac River and South Branch Potomac River on the Maryland-West Virginia boundary 2.4 km (1.5 mi) SE of Oldtown, Maryland, flows southeasterly into the Chesapeake Bay south of Point Lookout. Lowest elevation in DC at 1 foot. Lowest elevation in WV at 240 feet.",597915
+218,Crump Creek,Virginia,51.7689,10-100,personal,0.0,crump,,,1465495
+219,Milk River,Montana,54053.25660000001,>10k,english,0.0,milk,,,774213
+220,Wolfpen Branch,Kentucky,1.0332,<10,english,0.0,wolf+pen,,,516455
+221,Sand Spring Run,Maryland,11.3688,10-100,english,0.0,sand,,,587189
+222,Cranberry River,Wisconsin,176.86889999999997,100-1k,english,0.0,cranberry,,,1579056
+223,Willamina Creek,Oregon,217.7181,100-1k,native (model),1.0,,0.773397058325854,,1163356
+224,Black River,Arkansas,22119.740100000003,>10k,english,0.0,black,,,66965
+225,Schooner Creek,South Carolina,36600.02459999999,>10k,english,0.0,schooner,,,1250812
+226,Salty Creek,Oklahoma,164.20319999999998,100-1k,english,0.0,salty,,,470550
+227,Calvey Creek,Missouri,108.1467,100-1k,english,0.0,calvey,,,731545
+228,Flint Creek,Montana,1276.0254,1k-10k,english,0.0,flint,,,783542
+229,Middle Fork Clark Fork,Idaho,56739.609899999996,>10k,dutch,0.0,clark,,,386803
+230,Mitchell Swamp,North Carolina,17.502299999999998,10-100,personal,0.0,mitchell,,,990101
+231,East Tarkio Creek,Iowa,152.7228,100-1k,native (list),1.0,,0.5074935992585214,,456205
+232,Suisun Slough,California,525.3209999999999,100-1k,native (list),1.0,,0.17670217630223461,,253945
+233,Pecunit Brook,Massachusetts,3.0411,<10,native (model),1.0,,0.6134675897619729,,612506
+234,Conantville Brook,Connecticut,8.7804,<10,native (model),1.0,,0.7228265619761567,,206418
+235,Lapwai Creek,Idaho,692.8587000000001,100-1k,native (list),1.0,,0.37689023090021767,,373462
+236,Mud Creek,Michigan,105.26940000000002,100-1k,english,0.0,mud,,,1620927
+237,Verde River,Arizona,15837.381900000011,>10k,spanish,0.0,verde,,,35768
+238,Old Man Creek,Oregon,8.1639,<10,english,0.0,man,,,1147202
+239,Salt Creek,New Mexico,6550.885800000001,1k-10k,english,0.0,salt,,,897466
+240,Elk Creek,Kansas,150.8409,100-1k,english,0.0,elk,,,471082
+241,Trotters Branch,Tennessee,8.7471,<10,english,0.0,trotters,,,1272906
+242,Middle Patuxent River,Maryland,150.309,100-1k,native (list),1.0,,0.49943044042091245,,585816
+243,Cañada los Alamos,New Mexico,6.6321,<10,spanish,0.0,los alamos,,,904358
+244,Watonwan River,Minnesota,2262.8178000000007,1k-10k,native (list),1.0,,0.9258424912192104,,653842
+245,Tohachi Wash,Arizona,343.7793,100-1k,native (model),1.0,,0.8072019538556531,,12551
+246,East Fork Basin Creek,Montana,14.590800000000002,10-100,english,0.0,basin,,,782799
+247,North Branch Meshoppen Creek,Pennsylvania,3.663,<10,native (list),1.0,,0.16530106370236772,,1182542
+248,Gladiator Creek,Idaho,11.197799999999999,10-100,english,0.0,gladiator,,,382288
+249,Arroyo Sequit,California,28.397699999999997,10-100,native (model),1.0,,0.9222311834219712,,255305
+250,Cottonwood Creek,California,143.6913,100-1k,english,0.0,cottonwood,,,270623
+251,South Fork Little Beaver Creek,Montana,40.036500000000004,10-100,english,0.0,beaver,,,805448
+252,Little Osage River,Missouri,4473.692999999999,1k-10k,native (list),1.0,,0.24348205937303996,,474560
+253,Escambia River,Florida,10903.279499999993,>10k,native (list),1.0,,0.5828495748858712,"Although the name may be derived from the Spanish word 'cambiar,' meaning to exchange or barter, it more likely is from an Indian word of unknown meaning.",294003
+254,Bear Creek,North Dakota,54.78390000000001,10-100,english,0.0,bear,,,1034703
+255,Cowlitz River,Oregon,6413.990400000001,1k-10k,native (list),1.0,,0.17064387701393224,,1518230
+256,Scotch Creek,Oregon,1.4616,<10,english,0.0,scotch,,,1132178
+257,Breed Creek,Montana,25.0605,10-100,english,0.0,breed,,,769195
+258,Pond Creek,Kentucky,329.3811000000001,100-1k,english,0.0,pond,,,501042
+259,Brawley Wash,Arizona,2969.1693000000005,1k-10k,english,0.0,brawley,,,405
+260,Little Ochlockonee River,Georgia,28.8153,10-100,native (model),1.0,,0.9736444505494738,,317131
+261,Passapatanzy Creek,Virginia,33.4062,10-100,native (list),1.0,,0.8673007393084532,,1472095
+262,Sacramento River,California,66999.64229999996,>10k,spanish,0.0,sacramento,,"Named by the Spaniards, the word meaning ""sacrament.""",1654949
+263,Monocacy River,Maryland,2510.998200000001,1k-10k,native (list),1.0,,0.8438786900235818,"An Indian word meaning ""stream containing many large bends.""",585931
+264,North Santiam River,Oregon,1900.7379000000012,1k-10k,ethnonym,1.0,,0.7048243815818805,,1147060
+265,Buttahatchee River,Mississippi,2239.596000000002,1k-10k,native (list),1.0,,0.9773196102198757,,691546
+266,Soquee River,Georgia,413.97119999999995,100-1k,native (model),1.0,,0.9480265338614431,,335300
+267,North Fork Ticaboo Creek,Utah,7.6644,<10,native (model),1.0,,0.9827605003719102,,1434979
+268,Ochlockonee River,Florida,6033.7845000000025,1k-10k,native (model),1.0,,0.9736444505494738,"A Creek Indian word meaning ""yellow water.""",356441
+269,Platte River,Nebraska,211371.44849999933,>10k,dutch,0.0,platte,,"""The name 'Platte' is French for flat & was given by Canadian hunters because the stream for much of its length is broad, shallow, and flat but still below the wide level valley.  It is pre-eminently the flat river"" (US-T121).",835915
+270,South Fork Putah Creek,California,1754.8362000000009,1k-10k,native (model),1.0,,0.9628785224549524,,235043
+271,Sebasticook River,Maine,2457.5076,1k-10k,native (list),1.0,,0.9329591397880309,,575164
+272,Kankakee River,Illinois,13308.812100000005,>10k,native (list),1.0,,0.9820001154125506,,411304
+273,Tibbee Creek,Mississippi,2893.9176000000007,1k-10k,native (list),1.0,,0.9657819330552483,,691624
+274,Northwest Yeocomico River,Virginia,15.8994,10-100,native (list),1.0,,0.933635529087476,,1471668
+275,Mackelroy Creek,Idaho,3.0537,<10,native (model),1.0,,0.5276830395887644,,395669
+276,Stillaguamish River,Washington,1713.7467000000001,1k-10k,native (list),1.0,,0.9537990762555865,,1508743
+277,Pascagoula River,Mississippi,21390.95699999999,>10k,native (list),1.0,,0.8696540144697267,The lower eight miles of the Pascagoula River are known locally as the Singing River.,694322
+278,Miller Mill Run,West Virginia,11.862,10-100,english,0.0,miller mill,,,1552142
+279,Sang Branch,Tennessee,3.1932,<10,english,0.0,sang,,,1300781
+280,Kalamazoo River,Michigan,5201.9325,1k-10k,native (list),1.0,,0.9309385487039005,,629444
+281,Altamaha River,Georgia,36654.20639999996,>10k,native (model),1.0,,0.9282568747397214,,354294
+282,Sugar Creek,Indiana,1230.2154000000003,1k-10k,english,0.0,sugar,,,444321
+283,East Fork Wind River,Wyoming,1121.9255999999998,1k-10k,english,0.0,wind,,,1599506
+284,Pole Creek,Colorado,4.1949000000000005,<10,english,0.0,pole,,,178126
+285,Navajo River,Colorado,1258.2936000000002,1k-10k,native (list),1.0,navajo,,,184550
+286,Prairie Branch,Tennessee,10.3986,10-100,english,0.0,prairie,,,1298440
+287,Little Deep Creek,North Dakota,1463.4072,1k-10k,english,0.0,deep,,,1029930
+288,Sand Hill Branch,Missouri,9.2457,<10,english,0.0,sand hill,,,726011
+289,Sippican River,Massachusetts,81.6426,10-100,native (model),1.0,,0.8691687836042752,,615569
+290,Blue Creek,Oregon,5.8995,<10,english,0.0,blue,,,1117841
+291,Manahowic Creek,Maryland,4.5396,<10,native (model),1.0,,0.9571011172105587,,594814
+292,South Santee River,South Carolina,39356.818199999965,>10k,native (list),1.0,santee,,,1230349
+293,Chanarambie Creek,Minnesota,193.77270000000001,100-1k,native (model),1.0,,0.829175084371486,,641098
+294,Red River of the North,North Dakota,89454.27330000003,>10k,english,0.0,red,,,1035890
+295,Amargosa River,California,18863.79839999999,>10k,spanish,0.0,amargosa,,,238578
+296,Whitewater River,California,2400.0561000000002,1k-10k,english,0.0,whitewater,,,274486
+297,Chinguapin Branch,Texas,3.0627,<10,native (model),1.0,,0.985000431076227,,1373090
+298,Moreau River,South Dakota,13161.469500000005,>10k,french,0.0,moreau,,,1265832
+299,Del Muerto Creek,New Mexico,169.4277,100-1k,spanish,0.0,del muerto,,,888311
+300,Bull Creek,Georgia,5.7339,<10,english,0.0,bull,,,327279
+301,Horsepen Creek,Texas,110.1618,100-1k,english,0.0,horse+pen,,,1359623
+302,Smith Creek,Missouri,115.96770000000001,100-1k,english,0.0,smith,,,726611
+303,Usquepaug River,Rhode Island,112.41720000000001,100-1k,native (model),1.0,,0.9848079410155938,,1217821
+304,South Fork Sisquoc River,California,33.924600000000005,10-100,native (list),1.0,,0.9822331919825998,,249720
+305,Ford River,Michigan,1197.4877999999997,1k-10k,english,0.0,ford,,,626238
+306,Stoak Creek,Missouri,8.8371,<10,native (model),1.0,,0.539180271023524,,727118
+307,Oraibi Wash,Arizona,1695.3372,1k-10k,native (model),1.0,,0.7056362382115136,,42882
+308,Arroyo Jacona,New Mexico,7.5861,<10,native (model),1.0,,0.954189912987438,,918059
+309,Lower Millecoquins River,Michigan,263.5398,100-1k,native (model),1.0,,0.7059741343891587,,631179
+310,East Fork Little Wichita River,Texas,562.2156,100-1k,native (list),1.0,,0.9402002100384637,,1356629
+311,Middle Fork Zumbro River,Minnesota,1126.3131000000003,1k-10k,personal,0.0,zumbro,,,654559
+312,South Fork Sappa Creek,Kansas,1265.6214,1k-10k,native (list),1.0,,0.842909751949597,,471012
+313,Two O'clock Bayou,Louisiana,236.22390000000001,100-1k,native (model),1.0,,0.8147715886186719,,1628398
+314,Chattahoochee River,Florida,44441.50860000001,>10k,native (list),1.0,,0.9982600428099704,"Name is reportedly Muskogean (Creek), meaning 'rocks-marked', from _chato_ 'rock' plus _huchi_ 'marked'. (""Place Names of Alabama"", Virginia Foscue, 1989)",354236
+315,Iden Branch,Indiana,8.8191,<10,personal,0.0,iden,,,450548
+316,Bear River,Utah,18258.916499999974,>10k,english,0.0,bear,,,1438485
+317,Snake River,Washington,243799.52490000025,>10k,english,0.0,snake,,Name possibly derived from an S-shaped (snake) sign which the Shoshone Indians made with their hands to mimic swimming salmon.,1533479
+318,Mizpah Creek,Montana,2081.2527,1k-10k,native (model),1.0,,0.9616792105169236,,774308
+319,Havasu Creek,Arizona,5959.089000000002,1k-10k,native (list),1.0,,0.6176001324832809,,5617
+320,Scatter Creek,Washington,27.1359,10-100,english,0.0,scatter,,,1525482
+321,Bayou Anacoco,Louisiana,1146.2805,1k-10k,native (model),1.0,,0.9584380301301635,,553407
+322,Grand River,Michigan,14450.8734,>10k,english,0.0,grand,,,627109
+323,Sangamon River,Illinois,13871.844899999995,>10k,native (list),1.0,,0.8447564532495944,,421688
+324,Mill Creek,Colorado,14.5449,10-100,english,0.0,mill,,,170439
+325,Honey Creek,Illinois,100.47690000000003,100-1k,english,0.0,honey,,,410475
+326,East Branch Penobscot River,Maine,2899.215000000001,1k-10k,native (list),1.0,,0.7836891104681173,,565563
+327,Tchefuncte River,Louisiana,14501.488500000001,>10k,native (list),1.0,,0.26790902585479903,Indian name.,1628339
+328,Buck Creek,Oklahoma,103.2183,100-1k,english,0.0,buck,,,1090610
+329,Little Lehigh Creek,Pennsylvania,255.07710000000003,100-1k,native (list),1.0,lehigh,,,1179585
+330,Long Branch,Pennsylvania,4.2174,<10,english,0.0,long,,,1192834
+331,Kalamink Creek,Michigan,45.8631,10-100,native (model),1.0,,0.8248781803365054,,629447
+332,Cow Creek,Wyoming,5.0571,<10,english,0.0,cow,,,1598968
+333,Crazy Woman Creek,Wyoming,2472.7716,1k-10k,english,0.0,crazy woman,,,1587205
+334,Shenandoah River,Virginia,7919.283599999998,1k-10k,native (list),1.0,,0.9769599667191061,,1556740
+335,Upatoi Creek,Georgia,1173.0887999999998,1k-10k,native (model),1.0,,0.741220308533167,,356608
+336,Packeka Creek,California,4.3884,<10,native (model),1.0,,0.9725385680036246,,264436
+337,Little Kisatchie Bayou,Louisiana,98.4042,10-100,native (model),1.0,,0.8581360088870855,,547608
+338,Chutum Vaya Wash,Arizona,121.9212,100-1k,native (model),1.0,,0.7299453819340322,,2918
+339,Knife River,Minnesota,270.0765,100-1k,english,0.0,knife,,,646207
+340,North Fork Red River,Texas,12674.877299999998,>10k,english,0.0,red,,,1364065
+341,Grand River,South Dakota,13907.718899999993,>10k,english,0.0,grand,,,1265233
+342,West Birch Creek,Oregon,315.2277,100-1k,english,0.0,birch,,,1158546
+343,Virgin River,Nevada,15000.656400000002,>10k,english,0.0,virgin,,,856418
+344,Rio Tesuque,New Mexico,202.1319,100-1k,native (list),1.0,,0.4469673046404879,,918470
+345,South Marais River,North Dakota,47.4372,10-100,french,0.0,marais,,,1032196
+346,Wattensaw Bayou,Arkansas,617.7726,100-1k,native (model),1.0,,0.8345603848017512,,78707
+347,Stampede Creek,Texas,17.892,10-100,english,0.0,stampede,,,1369090
+348,Smoky Hill River,Kansas,51205.24709999998,>10k,english,0.0,smoky hill,,,485314
+349,Ivy Thicket Branch,Georgia,2.7108,<10,english,0.0,ivy thicket,,,328281
+350,Cherry Creek,Virginia,11.3292,10-100,english,0.0,cherry,,,1464774
+351,Chippewa River,Minnesota,24639.78240000001,>10k,native (list),1.0,,0.9823621351131919,,1578997
+352,Flat Creek,Montana,920.7495,100-1k,english,0.0,flat,,,783497
+353,Cow Creek,Oregon,1291.3695000000002,1k-10k,english,0.0,cow,,,1140278
+354,Saint Lucie River,Florida,15729.867000000004,>10k,english,0.0,saint lucie,,,294318
+355,Five Fork,Arkansas,571.0896000000001,100-1k,english,0.0,five,,,49080
+356,Christmas Creek,Texas,139.6017,100-1k,personal,0.0,christmas,,,1373099
+357,Long Lake Creek,North Dakota,2613.6216,1k-10k,english,0.0,long,,,1030001
+358,Paint Lick Creek,Kentucky,283.10670000000005,100-1k,english,0.0,paint lick,,,500121
+359,Lemon Branch,Alabama,7.8759,<10,english,0.0,lemon,,,121498
+360,New Squankum Branch,New Jersey,7.551,<10,native (list),1.0,,0.8904320726017582,,883243
+361,Kimball Creek,Arkansas,3.0015,<10,personal,0.0,kimball,,,50841
+362,Chubbehatchee Creek,Alabama,167.33879999999994,100-1k,native (model),1.0,,0.9922606925966823,,155030
+363,North Fork Coxit Creek,Washington,2.5146,<10,native (model),1.0,,0.665739940646858,,1529313
+364,Sabine River,Louisiana,25293.046499999986,>10k,french,0.0,sabine,,,555872
+365,Gold Creek,Oregon,6.1434,<10,english,0.0,gold,,,1142811
+366,Similkameen River,Washington,9256.0887,1k-10k,native (list),1.0,,0.41170572573410746,,1525806
+367,Little Fork Little Sandy River,Kentucky,343.0773,100-1k,english,0.0,sandy,,,496737
+368,Santa Cruz River,Arizona,12618.215100000001,>10k,spanish,0.0,santa cruz,,,34066
+369,Alec Run,West Virginia,3.5397,<10,personal,0.0,alec,0.28723305168942365,,1534863
+370,Nelson Creek,Texas,234.4851,100-1k,english,0.0,nelson,,,1375110
+371,Tamarack Creek,Oregon,3.7908,<10,english,0.0,tamarack,,,1150862
+372,Dry Fork Cheyenne River,Wyoming,1281.5631000000003,1k-10k,native (list),1.0,cheyenne,,,1599351
+373,Chinle Creek,Utah,10518.094799999997,>10k,native (list),1.0,,0.4800033270418353,,1426595
+374,Castalia Creek,South Dakota,86.6313,10-100,spanish,0.0,castalia,,,1254265
+375,Rock Creek,Wisconsin,11.440800000000001,10-100,english,0.0,rock,,,1572428
+376,Herrick Run,Montana,13.158000000000001,10-100,english,0.0,her+rick,,,784802
+377,Savannah River,Georgia,27124.797599999987,>10k,native (list),1.0,savannah,,,1253486
+378,Pedee Branch,Missouri,5.3055,<10,native (model),1.0,,0.6885171484164784,,724174
+379,Souris River,North Dakota,35057.3697,>10k,french,0.0,souris,,,1035892
+380,Chippewa Creek,Iowa,14.6844,10-100,native (list),1.0,,0.9823621351131919,,455397
+381,Kinnickinnic River,Wisconsin,2239.6752000000006,1k-10k,native (list),1.0,,0.9068026872738999,,1567522
+382,Jacks Creek,Idaho,1544.1605999999997,1k-10k,english,0.0,jacks,,"Named for John (Jack) Turner, rancher, who arrived in Little Valley in 1869.",376073
+383,Clear Fork,Texas,14959.4382,>10k,english,0.0,clear,,,1385454
+384,Cowpenna Creek,Mississippi,46.0269,10-100,native (model),1.0,,0.9212839538067956,,668913
+385,Skunk River,Illinois,11266.3809,>10k,english,0.0,skunk,,A translation of the Indian name Checauqua.,461664
+386,Corral Creek,Oregon,8.5725,<10,english,0.0,corral,,,1119293
+387,Possum Creek,Arkansas,16.3818,10-100,english,0.0,possum,,,73168
+388,North Branch Little Conemaugh River,Pennsylvania,80.25030000000001,10-100,native (list),1.0,,0.7461974126963452,,1198101
+389,Cooper Creek,Oregon,11.2896,10-100,english,0.0,cooper,,,1119247
+390,Canastota Creek,New York,20.8656,10-100,native (model),1.0,,0.8970725935479222,,945756
+391,Little Whitetail Creek,Montana,148.12650000000002,100-1k,english,0.0,whitetail,,,799874
+392,Ocmulgee River,Georgia,15804.863999999996,>10k,native (model),1.0,,0.9516061519285065,"A Creek Indian word meaning ""boiling water.""",356443
+393,North Fork Snoqualmie River,Washington,269.1396,100-1k,native (list),1.0,,0.6989290382873541,,1523845
+394,Bokchito Creek,Oklahoma,98.38440000000001,10-100,native (list),1.0,,0.8074296903666142,,1090372
+395,Big Creek,Missouri,1391.4575999999995,1k-10k,english,0.0,big,,,714155
+396,Willow Creek,California,3062.0889000000016,1k-10k,english,0.0,willow,,,237891
+397,Cherokee Creek,Kentucky,31.4541,10-100,native (list),1.0,cherokee,,,489395
+398,Duchesne River,Utah,9729.261900000003,1k-10k,personal,0.0,duchesne,,,1440701
+399,Ponka Bok Creek,Oklahoma,20.335499999999996,10-100,native (model),1.0,,0.957901982171392,,1101600
+400,Kaskaskia River,Illinois,15038.46630000001,>10k,native (list),1.0,,0.8498498857045504,,426395

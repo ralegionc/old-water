@@ -1,0 +1,15 @@
+numpy
+pandas
+pyarrow
+geopandas
+pyogrio
+shapely
+pyproj
+networkx
+scipy
+scikit-learn
+statsmodels
+matplotlib
+wordfreq
+spylls
+pytest

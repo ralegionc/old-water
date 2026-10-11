@@ -1,0 +1,241 @@
+<title>Old Water</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,700;1,400;1,500&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a full-bleed night map of rivers; one floating panel carries the finding, the legend and the curve. */
+:root {
+  --ink: #0b0e13;          /* the night the rivers glow in */
+  --panel: rgba(13, 17, 24, 0.9);
+  --rule: #232b37;
+  --text: #ebe6da;
+  --muted: #8f96a1;
+  --old: #f6b73c;          /* names older than the newcomers' language */
+  --new: #5089bb;          /* newcomer names */
+  --unk: #7b8290;
+  --display: "Spectral", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body { margin: 0; background: var(--ink); color: var(--text); font: 14px/1.5 var(--body); overflow: hidden; }
+#map { position: absolute; inset: 0; }
+.maplibregl-map { position: relative; overflow: hidden; -webkit-tap-highlight-color: transparent; }
+.maplibregl-canvas { position: absolute; left: 0; top: 0; }
+.maplibregl-canvas-container.maplibregl-interactive { cursor: grab; }
+.maplibregl-canvas-container.maplibregl-interactive:active { cursor: grabbing; }
+.maplibregl-canvas-container.hovering { cursor: pointer; }
+
+.panel {
+  position: absolute; top: calc(16px + env(safe-area-inset-top, 0px)); left: 16px; width: min(360px, calc(100% - 32px));
+  background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; padding: 18px 18px 14px;
+  display: grid; gap: 12px; backdrop-filter: blur(6px); max-height: calc(100% - 32px); overflow-y: auto;
+}
+h1 { font: 700 30px/1 var(--display); margin: 0; letter-spacing: 0.01em; }
+.dek { margin: 0; color: var(--muted); font-size: 13px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 6px; }
+.tabs button {
+  font: 500 12.5px var(--body); color: var(--muted); background: transparent; border: 1px solid var(--rule);
+  border-radius: 999px; padding: 5px 11px; cursor: pointer;
+}
+.tabs button[aria-pressed="true"] { color: var(--ink); background: var(--text); border-color: var(--text); }
+.tabs button:focus-visible { outline: 2px solid var(--old); outline-offset: 2px; }
+.finding { margin: 0; font-size: 13.5px; text-wrap: pretty; }
+.finding b { font: 500 13px var(--mono); color: var(--old); }
+.note { margin: 0; color: var(--muted); font-size: 12.5px; text-wrap: pretty; }
+.legend { display: grid; gap: 4px; font-size: 12.5px; }
+.legend span { display: flex; align-items: center; gap: 8px; }
+.legend i { width: 22px; height: 3px; border-radius: 2px; flex: none; }
+.chart { width: 100%; height: auto; }
+.chart text { fill: var(--muted); font: 10px var(--mono); }
+.chart .title { fill: var(--text); font: 500 11.5px var(--body); }
+.credits { margin: 0; color: var(--muted); font-size: 10.5px; line-height: 1.4; }
+.toggle { display: none; }
+
+.card {
+  position: absolute; pointer-events: none; min-width: 220px; max-width: 320px; background: var(--panel);
+  border: 1px solid var(--rule); border-radius: 6px; padding: 10px 12px; display: grid; gap: 4px;
+}
+.card .name { font: italic 500 17px/1.2 var(--display); }
+.card .meta { display: flex; gap: 8px; align-items: center; font: 11.5px var(--mono); color: var(--muted); }
+.pill { font: 600 10.5px var(--body); letter-spacing: 0.06em; text-transform: uppercase; border-radius: 3px; padding: 1px 6px; color: var(--ink); }
+.pill.old { background: var(--old); } .pill.new { background: var(--new); } .pill.unk { background: var(--unk); }
+.card .ev { font-size: 12px; color: var(--text); opacity: 0.85; }
+.loading { position: absolute; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); color: var(--muted); font: 12px var(--mono); }
+
+@media (max-width: 640px) {
+  .panel { top: auto; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); left: 12px; width: calc(100% - 24px); max-height: 55%; padding: 14px; gap: 10px; }
+  .panel.collapsed .more { display: none; }
+  .toggle { display: inline-block; justify-self: start; font: 500 12px var(--body); color: var(--muted); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
+  h1 { font-size: 24px; }
+  .card { left: 12px !important; right: 12px; top: calc(12px + env(safe-area-inset-top, 0px)) !important; max-width: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div id="map" aria-label="Map of named rivers coloured by the age of their names"></div>
+
+<section class="panel" id="panel">
+  <h1>Old Water</h1>
+  <p class="dek">Every named river, coloured by whether its name is older than the language of the people who renamed the land.</p>
+  <div class="tabs" role="group" aria-label="Country">
+    <button id="tab-us" data-key="us" aria-pressed="true">United States</button>
+    <button id="tab-england" data-key="england" aria-pressed="false">England</button>
+    <button id="tab-australia" data-key="australia" aria-pressed="false">Australia</button>
+    <button id="tab-nz" data-key="nz" aria-pressed="false">New Zealand</button>
+  </div>
+  <p class="finding" id="finding">Loading the rivers.</p>
+  <button class="toggle" id="toggle" type="button">Show legend and curve</button>
+  <div class="more">
+    <div class="legend">
+      <span><i style="background: var(--old)"></i><em id="lg-old">Old name</em></span>
+      <span><i style="background: var(--new)"></i>Newcomer name</span>
+      <span><i style="background: var(--unk)"></i>Not classified</span>
+    </div>
+    <p class="note" id="note"></p>
+    <svg class="chart" id="chart" viewBox="0 0 320 150" role="img" aria-label="Share of old names by catchment area"></svg>
+    <p class="credits">Hover a river for its name and the evidence. Rivers: USGS NHDPlus V2, OS Open Rivers, Geoscience Australia, OpenStreetMap contributors, HydroRIVERS. Names: Ekwall, <i>English River-Names</i> (1928), Wikipedia, GNIS, NZ Gazetteer.</p>
+  </div>
+</section>
+
+<div class="card" id="card" hidden></div>
+<div class="loading" id="loading">loading rivers</div>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script>
+const COUNTRIES = {
+  us: { label: "indigenous name", bounds: [[-125, 24.2], [-66.5, 49.6]],
+        note: "Indigenous names hold along the Atlantic slope and through the Mississippi system. In the West even the Columbia and the Snake carry newcomer names." },
+  england: { label: "pre-English name (British or older)", bounds: [[-6.2, 49.9], [1.9, 55.9]],
+        note: "Labels from Eilert Ekwall's English River-Names (1928). Cornwall, where Cornish lasted into the 1700s, is left out." },
+  australia: { label: "Aboriginal name", bounds: [[112.5, -43.8], [154, -10.4]],
+        finding: "The share of Aboriginal names rises from 13% on small creeks to about 25% by 1,000 km² of catchment, then stops. Among rivers over 300 km², bigger ones are no more likely to keep an Aboriginal name (odds ratio 1.03 per tenfold, against 2.1 in the US and 9.3 in England).",
+        note: "Explorers named the trunk rivers after patrons and officials: the Murray, Darling, Lachlan, Macquarie and Fitzroy. The 150 largest rivers were checked by hand." },
+  nz: { label: "Maori name", bounds: [[166.2, -47.4], [178.7, -34.3]],
+        finding: "About two thirds of small streams and four fifths of rivers over 100 km² carry Maori names, more than in any of the other three countries at every size.",
+        note: "Names are judged by the NZ Gazetteer's Maori flag, or by Maori spelling rules. Most English names are on the South Island." },
+};
+const NOTES = window.OLD_WATER_NOTES || {};
+const css = getComputedStyle(document.documentElement);
+const C = k => css.getPropertyValue(k).trim();
+let current = "us", curves = null, hovered = null;
+const cache = {};
+
+const map = new maplibregl.Map({
+  container: "map", attributionControl: false, dragRotate: false, pitchWithRotate: false,
+  style: { version: 8, sources: {}, layers: [{ id: "bg", type: "background", paint: { "background-color": C("--ink") } }] },
+  bounds: COUNTRIES.us.bounds, fitBoundsOptions: { padding: 40 },
+});
+map.touchZoomRotate.disableRotation();
+
+const W = ["interpolate", ["linear"], ["log10", ["max", ["get", "a"], 1]], 1, 0.35, 3, 0.9, 5, 2.4, 6.5, 4.6];
+const width = k => ["interpolate", ["linear"], ["zoom"], 2, ["*", 0.45 * k, W], 6, ["*", 1.2 * k, W], 10, ["*", 3 * k, W]];
+
+map.on("load", () => {
+  map.addSource("rivers", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+  const hl = ["case", ["boolean", ["feature-state", "hover"], false], C("--text")];
+  map.addLayer({ id: "unk", type: "line", source: "rivers", filter: ["==", ["get", "c"], "unk"],
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": [...hl, C("--unk")], "line-opacity": 0.55, "line-width": width(0.9) } });
+  map.addLayer({ id: "new", type: "line", source: "rivers", filter: ["==", ["get", "c"], "new"],
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": [...hl, C("--new")], "line-opacity": 0.85, "line-width": width(1) } });
+  map.addLayer({ id: "old-glow", type: "line", source: "rivers", filter: ["==", ["get", "c"], "old"],
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": C("--old"), "line-opacity": 0.22, "line-blur": 3, "line-width": width(3.2) } });
+  map.addLayer({ id: "old", type: "line", source: "rivers", filter: ["==", ["get", "c"], "old"],
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": [...hl, C("--old")], "line-width": width(1.1) } });
+  for (const id of ["unk", "new", "old"]) {
+    map.on("mousemove", id, onHover);
+    map.on("mouseleave", id, clearHover);
+    map.on("click", id, onHover);
+  }
+  fetch("data/curves.json").then(r => r.json()).then(j => { curves = j; show(current); });
+});
+
+function onHover(e) {
+  const f = e.features && e.features[0];
+  if (!f) return;
+  if (hovered !== null) map.setFeatureState({ source: "rivers", id: hovered }, { hover: false });
+  hovered = f.id;
+  map.setFeatureState({ source: "rivers", id: hovered }, { hover: true });
+  map.getCanvasContainer().classList.add("hovering");
+  const p = f.properties, card = document.getElementById("card");
+  const word = { old: COUNTRIES[current].label.replace(/ \(.*\)/, ""), new: "newcomer name", unk: "not classified" }[p.c];
+  card.innerHTML = `<div class="name"></div><div class="meta"><span class="pill ${p.c}"></span><span>${fmt(p.a)} km² catchment</span></div><div class="ev"></div>`;
+  card.querySelector(".name").textContent = p.n;
+  card.querySelector(".pill").textContent = word;
+  card.querySelector(".ev").textContent = p.e;
+  const x = Math.min(e.point.x + 16, window.innerWidth - 336), y = Math.min(e.point.y + 16, window.innerHeight - 140);
+  card.style.left = x + "px"; card.style.top = y + "px";
+  card.hidden = false;
+}
+function clearHover() {
+  if (hovered !== null) map.setFeatureState({ source: "rivers", id: hovered }, { hover: false });
+  hovered = null;
+  map.getCanvasContainer().classList.remove("hovering");
+  document.getElementById("card").hidden = true;
+}
+
+function fmt(v) {
+  if (v >= 1e6) return (v / 1e6).toFixed(v >= 1e7 ? 0 : 1) + " million";
+  return Math.round(v).toLocaleString("en-GB");
+}
+
+function show(key) {
+  current = key;
+  document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-pressed", b.dataset.key === key));
+  document.getElementById("lg-old").textContent = COUNTRIES[key].label[0].toUpperCase() + COUNTRIES[key].label.slice(1);
+  document.getElementById("note").textContent = NOTES[key] || COUNTRIES[key].note;
+  clearHover();
+  const c = curves && curves[key];
+  if (c) {
+    const or = Math.exp(c.slope), x50 = Math.pow(10, c.x50);
+    const half = x50 > 5e6 ? "Half of names would be old only beyond the size of any real river"
+                           : `Half of names are old at <b>${fmt(x50)} km²</b> of catchment`;
+    const n = `<span style="color:var(--muted)">${c.n.toLocaleString("en-GB")} named rivers.</span>`;
+    document.getElementById("finding").innerHTML = COUNTRIES[key].finding
+      ? `${COUNTRIES[key].finding} ${n}`
+      : `Each tenfold increase in catchment multiplies the odds of an old name by <b>${or.toFixed(2)}</b>. ${half}. ${n}`;
+    drawChart(c, !COUNTRIES[key].finding);
+  }
+  const wide = window.innerWidth >= 640;
+  map.fitBounds(COUNTRIES[key].bounds, {
+    padding: wide ? { top: 40, bottom: 40, right: 40, left: Math.min(420, window.innerWidth * 0.32) } : 20,
+    duration: 0,
+  });
+  const load = d => { map.getSource("rivers").setData(d); document.getElementById("loading").hidden = true; };
+  if (cache[key]) return load(cache[key]);
+  document.getElementById("loading").hidden = false;
+  fetch(`data/${key}.json`).then(r => r.json()).then(d => { cache[key] = d; if (current === key) load(d); });
+}
+
+function drawChart(c, logistic) {
+  const svg = document.getElementById("chart"), L = 34, R = 8, T = 18, B = 26, Wd = 320 - L - R, H = 150 - T - B;
+  const X = v => L + (v / 7) * Wd, Y = s => T + (1 - s) * H;
+  let path = "";
+  if (logistic) {
+    for (let i = 0; i <= 140; i++) {
+      const x = i / 20, s = 1 / (1 + Math.exp(-c.slope * (x - c.x50)));
+      path += (i ? "L" : "M") + X(x).toFixed(1) + "," + Y(s).toFixed(1);
+    }
+  } else {  // binned shares joined, where a logistic would hide the plateau
+    c.points.filter(p => p.mid > 0 && p.n >= 15).forEach((p, i) => {
+      path += (i ? "L" : "M") + X(Math.log10(p.mid)).toFixed(1) + "," + Y(p.share).toFixed(1);
+    });
+  }
+  const ticks = [0, 2, 4, 6].map(t => `<line x1="${X(t)}" x2="${X(t)}" y1="${T}" y2="${T + H}" stroke="${C("--rule")}"/><text x="${X(t)}" y="${T + H + 13}" text-anchor="middle">${["1", "100", "10k", "1M"][t / 2]}</text>`).join("");
+  const grid = [0, 0.5, 1].map(s => `<line x1="${L}" x2="${L + Wd}" y1="${Y(s)}" y2="${Y(s)}" stroke="${C("--rule")}"/><text x="${L - 5}" y="${Y(s) + 3}" text-anchor="end">${Math.round(s * 100)}%</text>`).join("");
+  const dots = c.points.filter(p => p.mid > 0 && p.n >= 15).map(p => `<circle cx="${X(Math.log10(p.mid)).toFixed(1)}" cy="${Y(p.share).toFixed(1)}" r="${Math.min(6, 1.6 + Math.log10(p.n)).toFixed(1)}" fill="${C("--old")}" fill-opacity="0.85"/>`).join("");
+  svg.innerHTML = `<text class="title" x="${L}" y="11">Share of names that are old, by catchment (km²)</text>${grid}${ticks}<path d="${path}" fill="none" stroke="${C("--old")}" stroke-width="1.8"/>${dots}`;
+}
+
+document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => show(b.dataset.key)));
+document.getElementById("toggle").addEventListener("click", e => {
+  const p = document.getElementById("panel"), c = p.classList.toggle("collapsed");
+  e.target.textContent = c ? "Show legend and curve" : "Hide legend and curve";
+});
+if (window.innerWidth < 640) document.getElementById("panel").classList.add("collapsed");
+</script>

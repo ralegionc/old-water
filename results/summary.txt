@@ -1,0 +1,70 @@
+ENGLAND (size = catchment area; intervals from a basin bootstrap)
+  Ekwall labels (county lists + generic rule): n=911, old share 41.6%, odds ratio per 10x size 2.53 [1.99, 3.20] (naive [2.06, 3.10]), half of names old at 133 km2 [80, 236]; basin bootstrap, 217 basins
+  Ekwall county lists only: n=811, old share 46.7%, odds ratio per 10x size 2.02 [1.52, 2.58] (naive [1.64, 2.49]), half of names old at 101 km2 [49, 214]; basin bootstrap, 210 basins
+  size as upstream channel length instead: n=911, old share 41.6%, odds ratio per 10x size 2.28 [1.76, 2.87] (naive [1.90, 2.73]), half of names old at 62 km [36, 118]; basin bootstrap, 217 basins
+  all 12,670 named rivers, opaque counted as newcomer (lower bound): n=12,670, old share 3.0%, odds ratio per 10x size 15.68 [12.13, 20.44] (naive [12.88, 19.08]), half of names old at 513 km2 [429, 658]; basin bootstrap, 971 basins
+  all 12,670 named rivers, opaque counted as old (upper bound): n=12,670, old share 34.9%, odds ratio per 10x size 1.46 [1.33, 1.54] (naive [1.36, 1.56]), half of names old at 531 km2 [289, 1,610]; basin bootstrap, 971 basins
+  zone west (<2.5W): n=307, old share 52.1%, odds ratio per 10x size 2.63 [1.77, 4.65] (naive [1.83, 3.78]), half of names old at 36 km2 [14, 78]; basin bootstrap, 63 basins
+  zone middle: n=360, old share 41.4%, odds ratio per 10x size 3.58 [2.58, 4.72] (naive [2.53, 5.06]), half of names old at 93 km2 [50, 141]; basin bootstrap, 77 basins
+  zone east (>1.25W): n=244, old share 28.7%, odds ratio per 10x size 2.42 [1.52, 4.04] (naive [1.52, 3.86]), half of names old at 1,055 km2 [386, 30,924]; basin bootstrap, 92 basins
+
+UNITED STATES (size = NHDPlus drainage area; intervals clustered by HUC4 subregion)
+  all named streams: n=170,395, old share 3.6%, odds ratio per 10x size 3.05 [2.80, 3.33] (naive [2.96, 3.15]), half of names old at 24,650 km2 [13,294, 45,705]; cluster-robust, 203 basins
+    clustering widens the slope's standard error 2.7x
+  tribe names among old names: 867; state-name transfers: 201
+  tribe names and state-name transfers counted as newcomer: n=170,395, old share 3.0%, odds ratio per 10x size 2.90 [2.63, 3.19] (naive [2.80, 3.00]), half of names old at 49,538 km2 [22,933, 107,008]; cluster-robust, 203 basins
+  model-labelled names dropped (list and tribe names only): n=167,371, old share 1.8%, odds ratio per 10x size 3.98 [3.64, 4.35] (naive [3.81, 4.15]), half of names old at 25,637 km2 [15,221, 43,180]; cluster-robust, 203 basins
+  list ignored: every name judged by the character model: n=170,395, old share 3.1%, odds ratio per 10x size 2.93 [2.67, 3.20] (naive [2.83, 3.03]), half of names old at 42,642 km2 [21,128, 86,061]; cluster-robust, 203 basins
+  opaque counted as newcomer (lower bound): n=175,875, old share 3.5%, odds ratio per 10x size 3.04 [2.79, 3.32] (naive [2.95, 3.14]), half of names old at 26,964 km2 [14,490, 50,176]; cluster-robust, 203 basins
+  opaque counted as indigenous (upper bound): n=175,875, old share 6.6%, odds ratio per 10x size 1.99 [1.85, 2.14] (naive [1.94, 2.04]), half of names old at 149,460 km2 [54,024, 413,492]; cluster-robust, 203 basins
+  by region:
+  Colonial East (Atlantic slope): n=29,846, old share 5.4%, odds ratio per 10x size 5.14 [4.07, 6.48] (naive [4.76, 5.55]), half of names old at 1,277 km2 [699, 2,335]; cluster-robust, 31 basins
+      biggest: Susquehanna River (old), Allegheny River (old), Waccamaw River (old), South Santee River (old), Santee River (old), Potomac River (old), Schooner Creek (new), Great Pee Dee River (old), Hudson River (new), Delaware River (new), Connecticut River (old), James River (new)
+  Southeast interior: n=32,305, old share 3.5%, odds ratio per 10x size 4.95 [4.07, 6.01] (naive [4.56, 5.37]), half of names old at 2,767 km2 [1,274, 6,012]; cluster-robust, 33 basins
+      biggest: Mississippi River (old), Ohio River (old), Mobile River (new), Alabama River (old), Tombigbee River (old), Apalachicola River (old), Chattahoochee River (old), Altamaha River (old), Congaree River (old), Yazoo River (old), Savannah River (old), Coosa River (old)
+  Ohio-Great Lakes-Upper Mississippi: n=32,648, old share 2.9%, odds ratio per 10x size 3.44 [3.04, 3.89] (naive [3.18, 3.73]), half of names old at 22,365 km2 [11,751, 42,566]; cluster-robust, 60 basins
+      biggest: Missouri River (old), Platte River (new), Kansas River (old), Tennessee River (old), Illinois River (old), Republican River (new), Rainy River (new), Smoky Hill River (new), Cumberland River (new), Minnesota River (old), Osage River (old), Des Moines River (new)
+  Plains: n=9,591, old share 2.9%, odds ratio per 10x size 2.20 [1.82, 2.67] (naive [1.89, 2.56]), half of names old at 1,888,830 km2 [153,163, 23,293,311]; cluster-robust, 43 basins
+      biggest: Rio Grande (new), Yellowstone River (new), Pecos River (old), Red River of the North (new), North Platte River (new), North Platte River (new), Cheyenne River (old), Cheyenne River (old), South Platte River (new), James River (new), Nueces River (new), Loup River (new)
+  Spanish Southwest: n=8,750, old share 5.5%, odds ratio per 10x size 1.99 [1.72, 2.30] (naive [1.77, 2.24]), half of names old at 552,029 km2 [89,895, 3,389,906]; cluster-robust, 36 basins
+      biggest: Colorado River (new), Rio Grande (new), Gila River (old), Pecos River (old), Little Colorado River (new), San Juan River (new), Nueces River (new), Salt River (new), Amargosa River (new), Frio River (new), Muddy River (new), Rio Puerco (new)
+  Mountain and Pacific West: n=46,915, old share 2.9%, odds ratio per 10x size 2.25 [1.89, 2.67] (naive [2.10, 2.41]), half of names old at 467,807 km2 [35,981, 6,082,136]; cluster-robust, 50 basins
+      biggest: Columbia River (new), Snake River (new), Green River (new), Sacramento River (new), Pend Oreille River (new), Bighorn River (new), Middle Fork Clark Fork (new), Clark Fork (new), Milk River (new), New York Slough (new), San Joaquin River (new), Salmon River (new)
+
+AUSTRALIA (size = HydroRIVERS area; intervals clustered by HydroRIVERS basin)
+  classifier labels only: n=26,360, old share 17.1%, odds ratio per 10x size 1.79 [1.44, 2.21] (naive [1.70, 1.87]), half of names old at 53,143 km2 [4,057, 696,158]; cluster-robust, 1541 basins
+  hand labels applied to the 150 largest rivers (8 left unclear)
+  named rivers (largest 150 hand-checked): n=26,373, old share 17.1%, odds ratio per 10x size 1.78 [1.44, 2.21] (naive [1.70, 1.87]), half of names old at 54,162 km2 [4,025, 728,760]; cluster-robust, 1541 basins
+    area (0.0, 100.0]           n=16,045  old 13.0%
+    area (100.0, 1000.0]        n= 8,685  old 22.6%
+    area (1000.0, 10000.0]      n= 1,458  old 27.5%
+    area (10000.0, 10000000.0]  n=   185  old 24.9%
+      biggest: Murray River (new), Darling River (new), Barwon River (old), Cooper Creek (new), Cooper Creek (new), Eyre Creek (new), Georgina River (new), Georgina River (new), Culgoa River (old), Warburton Creek (new), Murrumbidgee River (old), Diamantina River (new), Diamantina River (new), Victoria River (new), Thomson River (new)
+
+NEW ZEALAND (size = HydroRIVERS area; intervals clustered by HydroRIVERS basin)
+  named rivers: n=4,934, old share 68.7%, odds ratio per 10x size 1.62 [1.23, 2.14] (naive [1.42, 1.85]), half of names old at 0 km2 [0, 5]; cluster-robust, 841 basins
+    area (0.0, 100.0]           n= 4,557  old 67.8%
+    area (100.0, 1000.0]        n=   342  old 79.8%
+    area (1000.0, 10000.0]      n=    32  old 84.4%
+    area (10000.0, 10000000.0]  n=     3  old 66.7%
+      biggest: Clutha River (new), Waikato River (old), Waitaki River (old), Whanganui River (old), Clutha River (new), Tāngarākau River (old), Rangitīkei River (old), Ruamāhanga River (old), Waiau Toa (old), Taieri River (old), Rakaia River (old), Hurunui River (old), Waimakariri River (old), Kaiwara River (old), Rangitāiki River (old)
+
+LARGE RIVERS ONLY (odds ratio per tenfold area among rivers above the cut)
+  England                      above   300 km2: n=   139, old  73%, odds ratio 9.31 [3.91, 28.78]
+  England                      above 1,000 km2: n=    45, old  91%, odds ratio 398.46 [1.06, 320365819251505796115381354496.00]
+  United States                above   300 km2: n= 6,576, old  18%, odds ratio 2.09 [1.83, 2.38]
+  United States                above 1,000 km2: n= 2,150, old  25%, odds ratio 1.92 [1.57, 2.34]
+    Colonial East              above   300 km2: n=   693, old  41%, odds ratio 2.64 [1.84, 3.80]
+    Colonial East              above 1,000 km2: n=   231, old  52%, odds ratio 3.29 [1.84, 5.88]
+    Mountain and Pacific West  above   300 km2: n= 1,693, old  12%, odds ratio 2.01 [1.59, 2.54]
+    Mountain and Pacific West  above 1,000 km2: n=   547, old  16%, odds ratio 1.49 [0.95, 2.32]
+  Australia                    above   300 km2: n= 4,704, old  26%, odds ratio 1.03 [0.80, 1.32]
+  Australia                    above 1,000 km2: n= 1,643, old  27%, odds ratio 0.78 [0.50, 1.21]
+  New Zealand                  above   300 km2: n=   114, old  81%, odds ratio 1.65 [0.35, 7.79]
+  New Zealand                  above 1,000 km2: n=    35, old  83%, odds ratio 0.88 [0.01, 87.29]
+
+COMPARISON (odds ratio per tenfold catchment area; size at which half of names are old)
+  England        n=    911  odds ratio 2.53  half old at 133 km2 [80, 236]
+  United States  n=170,395  odds ratio 3.05  half old at 24,650 km2 [13,294, 45,705]
+  Australia      n= 26,373  odds ratio 1.78  half old at 54,162 km2 [4,025, 728,760]
+  New Zealand    n=  4,934  odds ratio 1.62  half old at 0 km2 [0, 5]

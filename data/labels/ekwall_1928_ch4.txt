@@ -1,0 +1,202 @@
+# River-name origins transcribed from Eilert Ekwall, English River-Names
+# (Oxford, Clarendon Press, 1928), Introduction ch. IV "Distribution of the
+# various Types of Names", pp. lvi-lxii, plus the late back-formations listed
+# in the footnote to ch. III section 1, p. xliii, and the generic English names
+# of ch. III section 4, p. xlvii. Transcribed from the archive.org OCR text,
+# with OCR slips corrected by hand. Cornwall is omitted by Ekwall.
+#
+# Format:  [county group] lat lon       (approximate centre, for matching)
+#          category: name, name, ...
+# category: pre = pre-English (British or older), eng = English,
+#           scand = Scandinavian, back = back-formation, doubt = doubtful or obscure
+# *Name  = no longer in use as a river-name (Ekwall's star)
+# Name?  = Ekwall marks it (?) or "perhaps" / "probably"
+# A=B    = B is the modern spelling used by Ordnance Survey; both are tried
+
+[Kent] 51.20 0.75
+pre: Thames, Darent, Cray, Medway, Stour, *Sarre, Dour, *Limen
+eng: Swale, Wantsum, Yantlet, Yenlet, Ravensbourne, Shode
+back: Crane, Eden, Len, Rother, Teise, Lee, Tun
+doubt: Beult
+
+[Sussex] 50.95 -0.35
+pre: Lavant, *Tarrant, *Itchen?
+eng: *Midwin, *Bramber, *Shire
+doubt: Brede, Chilt, Stor
+back: Cuckmere, Ouse, Adur, Arun, Rother, Ems
+
+[Essex] 51.80 0.55
+pre: Thames, Lea, *Hyle, Pant, Colne, Stour, *Baddow?
+eng: Bourne, Ingrebourne, Blackwater, *Terl?, *Writtle
+back: Roding, Rom, Crouch, Roach, Chelmer, Brain, Can, Wid
+
+[Middlesex, Herts, Bucks east of the Chilterns] 51.72 -0.35
+pre: Lea=Lee, Beane, Mimram, Brent, Colne
+eng: Fleet, Holborn, *Lidding, *Medesing, Silk Stream, *Tyburn, Walbrook, Ash, Rib, Misbourne
+back: Crane, Gade, Chess, Ver, Hiz, Wye, Kime, Quin, Oughton
+
+[Surrey] 51.25 -0.40
+pre: Wey, *Dork
+eng: Bourne, *Emel?
+back: Mole, Wandle, Windle, Oak
+
+[Oxford, Bucks west of the Chilterns, Gloucester east of the Cotswolds] 51.80 -1.45
+pre: Thames, Thame, *Ight, *Wendover, *Bladon, Glyme?, Windrush, Turkdean, Coln, Churn, *Humber, Lovat
+eng: Danes Brook, Cherwell, Ray, Leach, Sars Brook, Dikler, *Guiting, *Rendbrook, *Tilnoth, Ampney Brook, *Bune, Shill Brook
+back: Dorn, Evenlode
+
+[Bucks north] 52.05 -0.85
+back: Leck, Tinge
+
+[Berkshire] 51.45 -1.25
+pre: Thames, Loddon, Kennet, Ock, *Charn, *Humber
+eng: *Swale, Blackwater, Enborne, Lambourn, *Pangbourne, Ginge Brook?, *Wantage
+back: Pang, Coe
+
+[Hants] 51.05 -1.30
+pre: Meon, Itchen, *Candover, Test, *Wellow, Anton, Ann, *Micheldever, *Limen, *Itchel, Avon
+eng: *Shire, Hamble, Lyde, Bourne, *Freshwater, Medina
+back: Allen, Alre, Yar?, Yare?, Alver, Lin Brook, Mude, Sher
+
+[Wiltshire] 51.30 -1.95
+pre: Avon, Wiley=Wylye, Deverill, Nadder, Fonthill, Sem, Thames, *Lent, *Dork, *Worf, Frome, Biss, Semington Brook, *Calne, *Idover, Gauze Brook, *Humber, *Weaver
+eng: Ebble, Bourne, Were, Ray, *Lyde, *Smite, Marden, Lyd Brook
+back: Cole, Og, *Pew, Teff
+
+[Dorset] 50.80 -2.30
+pre: Avon, Stour, Tarrant, Pimperne, Iwerne, Fontmell, Lodden, Divelish, Lydden, Cale, Trent, Devils Brook, Frome, Cerne, *Toller, *Wynford, *Winfrith, Wey, Bride, Char, Lyme=Lim, Axe
+eng: *Wimborne, *Gussage, Piddle, *Wooth, Winterbourne
+back: Allen, Corfe, Hooke, Simene, Chid, Asker
+
+[Somerset] 51.10 -2.95
+pre: Avon, Frome, *Wellow, Cam Brook, *Lox, *Corse, Chew, Kenn, Axe, Lox Yeo, *Tarnock, Brue, Alham, *Doulting, Parret=Parrett, Isle, Dowlish, *Earn, *Curry, Tone, *Coker, *Wearne, Cary, Avill, *Doverhay, Oare, Exe
+eng: Sheppey, Haddeo, *Lyde, *Willett, Barle
+doubt: Yeo, Little River, Wring
+back: Cam, Quarme
+
+[Devon] 50.75 -3.80
+pre: Axe, Coly, Corry Brook, Yarty, *Vine, Exe, Clyst, Culm, *Craddock, Lynor?, Lowmon=Lowman, Creedy, Dart, Kenn, Dawlish Water, Teign, Lemon, Bovey, Mardle, Avon, Glaze Brook, Yealm, Tory Brook, Tamar, Tavy, Lew, Carey, Torridge, Okement, Taw, Little Dart, Dalch, *Nymet
+eng: Umborne, Sid, Otter, Tale, Grindle Brook, Denes Brook, Walla Brook, Webburn, Wash, Harbourne, Meavy, Lumburn, Lyd, Lyn=East Lyn=West Lyn, Yeo
+back: Bray, Erme, Plym, Thrushel, Walkham, Batherm, Claw, Deer, Derrill, Hems, Mole, Sig
+
+[Gloucester] 51.75 -2.30
+pre: Severn, Wye, Avon, Boyd, Frome, *Itchen, Little Avon, Cam, Leadon, Glynch Brook, Carant Brook=Carrant Brook, Stour, Humber Brook, *Doverburn, *Parret
+eng: *Swepel, Trym, Lyde, *Ballestre, *Medestre, Tirle, Isbourne
+back: Chelt, Swilgate
+
+[Hereford] 52.10 -2.75
+pre: Wye, Monnow, Dore, Olchon, Escley Brook, Dulas, Worm, Garren, Gamber, Luke Brook, Lugg, Frome, Lodon, Humber Brook, Arrow, Onny
+eng: Curl Brook, *Lyde, *Pipe, Summergil
+
+[Worcester] 52.20 -2.20
+pre: Severn, Wynd Brook, *Croome, *Codre, Teme, Kyre, Laughern=Laugherne, *Lavric, *Coforth, *Beferic, *Doferic, *Sihtferth, Gladder Brook, Dowles, Lem Brook, Avon, *Ennick, *Doverdale, Stour, Wenferth, Cole, *Lent
+eng: *Ball, *Corn Brook, Gleden, *Smite, Salwarpe, *Himble Brook, *Erse, Piddle, Whitsun Brook, *Bell, Merry Brook
+
+[Warwick] 52.30 -1.60
+pre: Avon, Arrow, Alne, Leam, Itchen, Sowe, Trent, Tame, Anker, Cole
+eng: Shirburn, Smite Brook, Swift, *Ladbrooke, Blythe, Bourne, Rea
+
+[Suffolk] 52.20 1.05
+pre: Stour, Kennett, *Arwe
+eng: Blyth, *Amalburna, *Markle, Orwell?, Hundred River, Linnet
+back: Alde, Bret=Brett, Box, Deben, Glem, Lark, Minsmere, Ore, Yox
+doubt: Dove, Waveney
+
+[Norfolk] 52.65 0.95
+pre: Ouse=Great Ouse, Yare?, *Loddon
+eng: Wensum, *Smalea, Burn, Wissey, *Emen?, *Welney
+back: Thet, Chet, Tas, Tat, Bure, Ant, Thurne, Glaven, Stiffkey, Ingol, Nar, Cong, Eyn, Lyve, Mun, Tud
+
+[Bedford, Hunts, Cambridge, Northampton] 52.35 -0.40
+pre: Ouse=Great Ouse, Ivel, *Severn, *Humber, *Hail, *Colne, Granta, Nene, Ise, Welland
+eng: *Husborne, Rhee, Bourne, *Blithe, Harper's Brook, Tove
+back: Cam, Fitt, Kym, Til, Snail
+
+[Leicester and Rutland] 52.65 -1.00
+pre: Trent, Soar, *Glen, Welland
+eng: Wash=Gwash, Eye, Eye Brook, *Lipping, Mease, Sence
+scand: Wreak=Wreake
+doubt: Chater
+
+[Lincoln] 53.15 -0.30
+pre: Nene, Welland, Glen, Witham, Till, Lymn, Humber, Ancholme, Trent
+eng: Bourne Eau, Lud, Freshney, Brant, Slea, Waring
+scand: Bain, Skirth, Skitter?
+back: Rase, Steeping
+
+[Nottingham] 53.15 -1.00
+pre: Trent, Devon, Dover Beck, Cocker Beck, Leen, *Clun?
+eng: Smite, Whipling, Greet, Erewash, *Blyth, Idle, Meden
+back: Maun, Rainworth, Wink
+doubt: Poulter
+
+[Derby] 53.10 -1.60
+pre: Trent, Derwent, Amber, Noe, Wye, Dove, Rother
+eng: Ecclesbourne, Ashop, Edale, *Ashbourne, Hipper, Smale Water
+scand: *Grivel, Scow Brook
+doubt: Lathkil=Lathkill
+
+[Shropshire] 52.60 -2.75
+pre: Severn, Dowles, Cound Brook, Meole, Camlad, Perry, Tern, Roden, Vyrnwy, Morda, Tanat, Teme, *Neen, Onny, *Culm, Clun, Ceiriog, Morlas
+eng: Worf, Rea, Meese, Redlake
+back: Corve, Kemp, Ledwyche
+
+[Stafford] 52.80 -2.00
+pre: Stour, *Trysull, Trent, Tame, Sow, Penk, Dove, Tean, Churnet, Hamps
+eng: Bourne Brook, Meese Brook, Swerbourn=Swarbourn, Blythe, Pur Brook, Manifold
+back: Smestow
+
+[Cheshire] 53.20 -2.55
+pre: Dee, *Tarvin, Weaver, Dane, Wheelock, Bollin?, Peover Eye, Etherow, Goyt
+eng: Mersey, Ash Brook, Black Brook, Fowle Brook, Red Brook
+
+[Yorkshire East Riding] 53.90 -0.60
+pre: Humber, Hull, *Leven, Foss Beck, Ouse
+eng: Foulness, Gipsey Race=Gypsey Race
+scand: Skerne?
+back: Hertford
+
+[Yorkshire West Riding] 53.75 -1.60
+pre: Don, Rother, Dove, Went, Aire, Calder, Colne, Ryburn?, Cawder, Wharfe, Foss, Cray, Cock Beck?, Nidd, Crimple Beck, *Dacre, Ure, Laver, Hodder, *Crummock
+eng: Dearne, Sheaf, Rivelin, *Stene, Hebden, Winterburn, Washburn
+scand: Eller Beck, Kex Beck, Skell, Brennand, Greeta=Greta, Rawthey
+back: Holme, Torne, Worth, Dibb, Ark
+
+[Yorkshire North Riding] 54.30 -1.20
+pre: Ure, Cover, Ouse, Kyle, Foss, Derwent, Rye, *Redover, Dove, Seven, Esk, Glaisdale Beck, Tees, Leven, Tame, Balder, Lune
+eng: Swale, Leeming, Wiske, Burn, *Thackriveling, *Iburn
+scand: Bain, Blean Beck, Cod Beck, Isle Beck, Arkle Beck, Clow Beck, Greta, Riccal, Costa, Seph?, Little Beck, *Hordesay Beck
+
+[Durham] 54.70 -1.80
+pre: Tees, Cocker Beck, Alwent, Eden Burn, Wear, Deerness, Tyne, Team, Don, Derwent, Pont
+eng: Browney
+scand: Gaunless, Skerne?
+
+[Northumberland] 55.20 -2.00
+pre: Tyne, Derwent, Devils Water, Allen, Ayle Burn, Gelt Burn, Glendue, Erring Burn, Kielder, Pont, Wansbeck, Font, Lyne, Alwin, Aln, Nanny, Warren Burn, Low, Tweed, Till, Breamish, Glen
+eng: Rede, Blyth, Bowmont, *Lear, Hartley Burn, Black Burn, Otter Burn, Ouse Burn?
+back: Coquet, Tipalt Burn
+
+[Lancashire] 53.90 -2.65
+pre: Tame, Irk?, Roch?, Glaze Brook, Sankey, Alt, Douglas, Yarrow, Darwen, Calder, Colne, Hodder, Savick, Wyre, Pilling, Lune, Cocker, Conder, Cant Beck?, Keer, Kent, Leven, Crake, Duddon
+eng: Mersey, Irwell, Medlock, Beal, Ribble?, Asland, Hyndburn, Brun, Loud, Brock, Hindburn, Roeburn, Wenning, Gore Brook, Cornbrook=Corn Brook, Otter's Pool
+scand: Escowbeck=Escow Beck, Artlebeck=Artle Beck, Greeta=Greta, Winster, Steers Pool, Brathay
+back: Tawd, Chor
+doubt: Lickle, Lostock
+
+[Westmorland] 54.45 -2.65
+pre: Lune, Kent, Mint, Eden, Lyvennet, Lowther?, Glen Ridding=Glenridding Beck
+eng: Barbon Beck, Belah
+scand: Rawthey, Borrow, Birk Beck, Beela, Sprint, Rothay
+back: Eamont, Gilpin, Gowan
+
+[Cumberland] 54.65 -3.05
+pre: Duddon, Esk, Mite, Irt, Calder, Ehen, Keekle?, Derwent, Marron, Cocker, Glenderamackin, Glenderaterra, Ellen, Pow Beck, Crummock Beck, Wampool, Chalk Beck, Eden, Powburgh Beck, Petteril, Powmaughan, Croglin?, Glencoyne, Dacre, Cairn, Irthing, Gelt, Cleskett, Powterneth, *Seknent, Poltross, *Nentemon, Burth?, Cam Beck, Knorren, Lyne, Hether Burn, Sark, Nent
+eng: Hartley Burn, Liddel, Kershope, Caldew?
+scand: Bleng, Liza, Borrow, Greta, Snary Beck, Gilcambon Beck, Cald Beck, Roe Beck, Ive?, Airy
+back: Annas, King?, Raven
+
+# Ch. III s. 4: "common names such as Bourne, Burn, Eye, Ray, Rea, Yeo, which
+# simply mean 'stream', are English", wherever they occur. County entries win.
+[ANY] 0 0
+eng: Bourne, Burn, Eye, Ray, Rea, Yeo, Black, Blackwater

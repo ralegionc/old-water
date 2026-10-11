@@ -1,0 +1,151 @@
+rank,name,truth,note
+1,Murray River,new,Sir George Murray (Sturt 1830)
+2,Darling River,new,Governor Ralph Darling
+3,Little Bogan River,unclear,Bogan: possibly Wiradjuri or an Irish surname
+4,Barwon River,old,Aboriginal
+5,Cooper Creek,new,Charles Cooper (Sturt)
+6,Bokhara River,unclear,origin uncertain
+7,Eyre Creek,new,Edward John Eyre
+8,Georgina River,new,personal name
+9,Culgoa River,old,Aboriginal
+10,Warburton Creek,new,Peter Warburton
+11,Murrumbidgee River,old,Wiradjuri
+12,Diamantina River,new,Lady Diamantina Bowen
+13,Victoria River,new,Queen Victoria
+14,Thomson River,new,personal name
+15,Templeton River,new,personal name
+16,Lachlan River,new,Governor Lachlan Macquarie
+17,Fitzroy River,new,Charles FitzRoy
+18,Murchison River,new,Roderick Murchison
+19,Macquarie River,new,Governor Lachlan Macquarie
+20,Daly River,new,Governor Dominick Daly
+21,Barcoo River,old,Aboriginal (recorded by Kennedy)
+22,Ord River,new,Harry Ord
+23,Suttor River,new,personal name
+24,Powell Creek,new,personal name
+25,Sturt Creek,new,Charles Sturt
+26,Warrego River,old,Aboriginal
+27,Macumba River,old,Aboriginal
+28,Boomi River,old,Aboriginal
+29,Cuttaburra Creek,old,Aboriginal
+30,Flinders River,new,Matthew Flinders
+31,Mayne River,new,personal name
+32,Ponton Creek,new,personal name
+33,Roper River,new,John Roper
+34,Finke River,new,William Finke
+35,Balonne River,old,Aboriginal
+36,Cloncurry River,new,Lady Cloncurry (Irish title)
+37,Dugald River,new,personal name
+38,Gilbert River,new,John Gilbert
+39,Smithburne River,new,English (Smith + burn)
+40,Fortescue River,new,Chichester Fortescue
+41,Bulloo River,old,Aboriginal
+42,Weir River,new,English word
+43,Condamine River,new,Thomas de la Condamine
+44,Baradine Creek,old,Aboriginal
+45,Belyando River,old,Aboriginal
+46,Playford River,new,personal name
+47,Wakool River,old,Aboriginal
+48,Camfield River,new,personal name
+49,Bybby Creek,unclear,origin unknown
+50,Thornleigh Creek,new,English place name
+51,Namoi River,old,Gamilaraay
+52,Fergusson River,new,personal name
+53,Norman River,new,personal name
+54,Gascoyne River,new,John Gascoyne
+55,Neales River,new,personal name
+56,O'Connell Creek,new,personal name
+57,Edward River,new,personal name
+58,Paroo River,old,Aboriginal
+59,Wallaroi Creek,old,Aboriginal form
+60,Towerhill Creek,new,English words
+61,Cornish Creek,new,English demonym
+62,Gunningbar Creek,old,Aboriginal
+63,Pituri Creek,unclear,Aboriginal plant name also borrowed into English
+64,Talbragar River,old,Aboriginal
+65,Einasleigh River,unclear,origin uncertain
+66,Duck Creek,new,English word
+67,Sandover River,new,English place name
+68,Katherine River,new,personal name
+69,Macintyre River,new,personal name
+70,Wokingham Creek,new,English place name
+71,Linda Creek,new,personal name
+72,Hanson River,new,personal name
+73,Blackwood River,new,English words
+74,Clarence River,new,Duke of Clarence
+75,Isaac River,new,personal name
+76,Lander River,new,personal name
+77,Hunter River,new,Governor John Hunter
+78,Salt River,new,English word
+79,Mulligan River,new,personal name
+80,Rolf Creek,new,personal name
+81,Hawkesbury River,new,Baron Hawkesbury
+82,Macdonald River,new,personal name
+83,Torrens Creek,new,personal name
+84,Orara River,old,Aboriginal
+85,Maranoa River,old,Aboriginal
+86,Billabong Creek,unclear,a generic word only
+87,Newcastle Creek,new,English place name
+88,Stevenson Creek,new,personal name
+89,Castlereagh River,new,Viscount Castlereagh
+90,Kyabra Creek,old,Aboriginal
+91,Leopold River,new,personal name
+92,Farrars Creek,new,personal name
+93,Sandy Creek,new,English word
+94,Peake Creek,new,personal name
+95,Gilliat River,new,personal name
+96,Karinga Creek,old,Aboriginal
+97,Willandra Creek,old,Aboriginal
+98,Savory Creek,new,personal name
+99,Alberga River,old,Aboriginal
+100,Ranken River,new,personal name
+101,Cunningham River,new,Allan Cunningham
+102,Yalgar River,old,Aboriginal
+103,Burke River,new,Robert O'Hara Burke
+104,Nogoa River,old,Aboriginal
+105,Hamilton Creek,new,personal name
+106,Comet River,new,English word
+107,Lyons River,new,personal name
+108,Baines River,new,Thomas Baines
+109,Western River,new,English word
+110,Moonie River,old,Aboriginal
+111,Langlo River,old,Aboriginal
+112,Ward River,new,personal name
+113,Hamilton River,new,personal name
+114,Drysdale River,new,personal name
+115,Campaspe River,new,Greek mythology (Mitchell)
+116,Nebine Creek,old,Aboriginal
+117,Tunnel Creek,new,English word
+118,Nicholson River,new,personal name
+119,Hay River,new,personal name
+120,Arthur River,new,personal name
+121,Creswell Creek,new,personal name
+122,Christmas Creek,new,English word
+123,Durack River,new,Durack family
+124,Mowlma Creek,unclear,origin unknown
+125,Dumaresq River,new,Dumaresq family
+126,Mortlock River,new,personal name
+127,Mcarthur River,new,personal name
+128,,unclear,no name
+129,Alice River,new,personal name
+130,Colo River,old,Aboriginal
+131,Eastern Creek,new,English word
+132,King River,new,personal name
+133,Gwydir River,new,Lord Gwydyr
+134,Banjo Creek,new,English word
+135,Moore River,new,personal name
+136,Mimosa Creek,new,English plant name
+137,Home Creek,new,English word
+138,Castle Creek,new,English word
+139,Nepean River,new,Evan Nepean
+140,Grose River,new,Francis Grose
+141,Alick Creek,new,personal name
+142,Mosquito Creek,new,English word
+143,Yarrilwanna Creek,old,Aboriginal
+144,Eurinilla Creek,old,Aboriginal
+145,Wilson River,new,personal name
+146,Gregory River,new,Augustus Gregory
+147,Wilton River,new,personal name
+148,Mailman Creek,new,English word
+149,Macleay River,new,Alexander Macleay
+150,Greenough River,new,George Bellas Greenough

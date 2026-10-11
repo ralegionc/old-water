@@ -1,0 +1,8 @@
+stations matched: 1369 of 1604 (England 918)
+log10 area vs log10 upstream length: r = 0.843 (England 0.809)
+fit: log10(area) = 0.653 + 0.799 log10(upstream_km)
+England area per km of channel: median 1.93 km2, IQR 1.38 to 2.90
+
+HydroRIVERS area (England rivers, two-of-three snapping):
+  rivers with a HydroRIVERS area: 8,258 of 12,883; kept 5,471, rejected as inherited from a bigger river 2,787; the rest use the channel-length conversion
+  NRFA stations checked: 887; log-log r = 0.928; median area ratio 1.05, within a factor of 1.5 for 85%

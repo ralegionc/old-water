@@ -1,0 +1,57 @@
+Kent: Yenlet (eng)
+Kent: Shode (eng)
+Kent: Lee (back) nearest 126 km
+Kent: Tun (back) nearest 368 km
+Middlesex, Herts, Bucks east of the Chilterns: Holborn (eng) nearest 281 km
+Middlesex, Herts, Bucks east of the Chilterns: Walbrook (eng)
+Middlesex, Herts, Bucks east of the Chilterns: Kime (back)
+Surrey: Oak (back) nearest 248 km
+Oxford, Bucks west of the Chilterns, Gloucester east of the Cotswolds: Turkdean (pre)
+Oxford, Bucks west of the Chilterns, Gloucester east of the Cotswolds: Lovat (pre)
+Bucks north: Leck (back) nearest 263 km
+Bucks north: Tinge (back)
+Berkshire: Coe (back) nearest 437 km
+Hants: Ann (pre)
+Hants: Yare (back) nearest 231 km
+Hants: Sher (back) nearest 197 km
+Wiltshire: Deverill (pre)
+Wiltshire: Fonthill (pre)
+Wiltshire: Were (eng)
+Wiltshire: Teff (back)
+Dorset: Pimperne (pre)
+Dorset: Winterbourne (eng) nearest 96 km
+Dorset: Chid (back)
+Somerset: Wring (doubt)
+Devon: Lynor (pre)
+Devon: Denes Brook (eng)
+Hereford: Luke Brook (pre)
+Hereford: Summergil (eng)
+Worcester: Wenferth (pre)
+Worcester: Gleden (eng)
+Warwick: Shirburn (eng)
+Norfolk: Cong (back) nearest 297 km
+Norfolk: Eyn (back)
+Norfolk: Lyve (back)
+Norfolk: Mun (back)
+Bedford, Hunts, Cambridge, Northampton: Rhee (eng)
+Bedford, Hunts, Cambridge, Northampton: Fitt (back)
+Lincoln: Skirth (scand) nearest 207 km
+Derby: Edale (eng)
+Derby: Smale Water (eng)
+Shropshire: Meole (pre)
+Shropshire: Vyrnwy (pre)
+Shropshire: Tanat (pre)
+Shropshire: Ceiriog (pre)
+Shropshire: Worf (eng)
+Cheshire: Dee (pre) nearest 118 km
+Yorkshire West Riding: Greeta (scand) nearest 73 km
+Yorkshire West Riding: Rawthey (scand) nearest 83 km
+Yorkshire West Riding: Ark (back)
+Yorkshire North Riding: Blean Beck (scand)
+Yorkshire North Riding: Isle Beck (scand) nearest 382 km
+Lancashire: Asland (eng)
+Westmorland: Beela (scand)
+Cumberland: Powmaughan (pre)
+Cumberland: Burth (pre)
+Cumberland: Gilcambon Beck (scand)
+Cumberland: Airy (scand)

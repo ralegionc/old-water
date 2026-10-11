@@ -1,0 +1,401 @@
+audit_id,truth,basis,note
+1,old,knowledge,Menominee people (Ojibwe word)
+2,new,form,English word
+3,old,knowledge,Yazoo people
+4,new,form,English and personal
+5,new,form,English word
+6,old,knowledge,Mohawk-derived
+7,old,knowledge,Kansa people
+8,unclear,form,origin unknown
+9,new,knowledge,"traditionally 'no Lynn', after Benjamin Linn"
+10,old,knowledge,Spokane people
+11,new,knowledge,personal name
+12,old,knowledge,Choctaw-derived
+13,old,knowledge,Abenaki
+14,unclear,form,could be indigenous or a personal name
+15,old,knowledge,Choctaw bogue
+16,unclear,form,Wingo is an English surname; list entry uncertain
+17,new,form,personal name
+18,new,form,English word
+19,old,gnis,Menominee 'wild goose river'
+20,old,knowledge,Menominee
+21,new,form,English word
+22,old,knowledge,Nez Perce
+23,new,form,personal name
+24,old,knowledge,Choctaw
+25,old,knowledge,Cherokee
+26,old,knowledge,Kickapoo people
+27,new,gnis,Spanish phrase
+28,unclear,knowledge,Maidu name carried from California
+29,old,knowledge,Muskogee
+30,new,form,English word
+31,old,gnis,Osage word
+32,new,form,English words
+33,old,knowledge,Penobscot
+34,old,knowledge,Penobscot/Abenaki
+35,new,form,personal name
+36,new,knowledge,English rendering of a people's name
+37,old,knowledge,Maliseet
+38,new,form,English words
+39,old,knowledge,Paiute people
+40,old,knowledge,Koasati town
+41,old,knowledge,Cherokee
+42,new,form,English word
+43,old,knowledge,Dakota chief Wapasha
+44,new,form,English (loanword hickory)
+45,old,knowledge,Choctaw
+46,old,knowledge,Seneca
+47,new,form,English word
+48,new,form,English (loanword raccoon)
+49,new,form,English words
+50,old,form,spelling of Choctaw
+51,old,form,Muskogee talla- form
+52,old,knowledge,Choctaw bogue
+53,old,knowledge,Ojibwe
+54,unclear,form,origin unknown
+55,new,form,personal name
+56,old,gnis,Dakota
+57,new,knowledge,Chinook Jargon word for black bear (settlers' trade language)
+58,new,knowledge,John Gunnison
+59,old,knowledge,Choctaw
+60,new,knowledge,French 'flat'
+61,old,form,indigenous form
+62,new,form,English word
+63,old,knowledge,Chickasaw
+64,new,form,English word
+65,old,knowledge,Paiute word for a tuber
+66,old,knowledge,Delaware
+67,old,knowledge,Cherokee
+68,new,form,English word
+69,new,form,English word
+70,new,knowledge,English translation of an Ojibwe name
+71,new,form,English word
+72,old,gnis,Miami word
+73,new,form,English word
+74,unclear,knowledge,Algonquian name carried from Massachusetts
+75,new,form,English word
+76,unclear,knowledge,origin disputed
+77,new,form,personal name
+78,new,form,biblical place name
+79,new,knowledge,Chinook Jargon word for coyote (settlers' trade language)
+80,new,form,English word
+81,old,knowledge,Mingo people
+82,new,form,English word
+83,new,form,English word
+84,new,form,personal name
+85,new,knowledge,English rendering of a people's name
+86,new,form,English word
+87,new,form,English words
+88,new,gnis,Susan Roop
+89,new,knowledge,King James I
+90,unclear,form,origin unknown
+91,unclear,form,origin unknown
+92,old,form,Algonquian form
+93,new,form,English word
+94,new,knowledge,Nathaniel Pryor
+95,old,gnis,Algonquian
+96,new,form,English word
+97,new,form,English and personal
+98,new,form,English word
+99,old,knowledge,Illinois Confederation
+100,new,form,English word
+101,new,form,Spanish lagunita
+102,new,form,personal name
+103,unclear,form,origin unknown
+104,unclear,form,origin unknown
+105,old,knowledge,Susquehannock
+106,old,knowledge,Chinookan or Cowlitz
+107,old,knowledge,Clatsop
+108,new,form,English word
+109,new,form,English word
+110,new,knowledge,Spanish from the Basque shrine Aranzazu
+111,old,knowledge,Navajo
+112,old,knowledge,Umpqua people
+113,new,form,English word
+114,new,gnis,Frederick Thomas
+115,new,form,English word
+116,new,form,English place name
+117,old,knowledge,Salishan
+118,unclear,knowledge,Iroquoian name carried from New York
+119,old,knowledge,Choctaw
+120,old,form,Algonquian form
+121,old,knowledge,Yakama
+122,new,form,English place name (Shannon + dale)
+123,old,knowledge,Osage
+124,new,form,personal name
+125,new,form,English word
+126,old,form,Algonquian form
+127,new,knowledge,Chinook Jargon 'red water' (settlers' trade language)
+128,new,form,English word
+129,new,gnis,translation of Tuscaloosa
+130,new,form,Spanish saint
+131,old,knowledge,Iroquoian
+132,unclear,knowledge,"origin disputed: Spanish form, possibly of a Yuman word"
+133,new,form,personal name
+134,new,form,English (loanword persimmon)
+135,new,form,English place name
+136,old,knowledge,state name carried to a creek (word is indigenous)
+137,old,knowledge,Algonquian
+138,old,knowledge,Onondaga personal name
+139,old,knowledge,Ojibwe people
+140,unclear,form,origin unknown
+141,new,form,personal name
+142,new,form,personal name
+143,new,form,personal name
+144,unclear,knowledge,"origin disputed: English or Kalapuya"
+145,old,knowledge,Cahokia people
+146,new,form,Spanish word
+147,new,form,personal name
+148,new,form,English word
+149,old,knowledge,Sahaptin
+150,new,form,English words
+151,new,form,English word
+152,new,form,personal name
+153,old,knowledge,Potawatomi
+154,new,knowledge,Alexander von Humboldt
+155,new,knowledge,French words
+156,new,form,personal name
+157,old,knowledge,Algonquian
+158,old,knowledge,Menominee
+159,new,form,English word
+160,new,form,personal name
+161,old,gnis,Missouria people
+162,old,knowledge,Choctaw
+163,unclear,form,origin unknown
+164,old,knowledge,Wyandot
+165,new,form,English (loanword pawpaw)
+166,new,form,personal name
+167,old,knowledge,Ojibwe
+168,old,knowledge,Atakapa
+169,new,form,personal name
+170,old,knowledge,state name carried to a river (word is indigenous)
+171,new,form,English word
+172,old,knowledge,Muskogean
+173,old,knowledge,Choctaw/Chickasaw
+174,old,gnis,Delaware
+175,old,knowledge,Klamath people
+176,new,form,English word
+177,old,knowledge,state name carried to a river (word is indigenous)
+178,new,form,English word
+179,new,form,English words
+180,new,form,English word
+181,old,knowledge,Navajo
+182,new,form,English place name
+183,old,knowledge,Cherokee
+184,old,knowledge,Muskogee
+185,new,form,English word
+186,old,knowledge,Ioway people
+187,new,form,personal name
+188,new,form,English word
+189,new,form,personal name
+190,new,form,English word
+191,old,knowledge,Mohave people
+192,old,knowledge,Sahaptin
+193,new,form,personal name
+194,new,form,English word
+195,old,gnis,Seneca
+196,new,form,English word
+197,new,form,English word
+198,new,form,English word
+199,unclear,form,origin unknown
+200,old,knowledge,Ojibwe
+201,new,form,Dutch kill with English west
+202,old,gnis,Abenaki
+203,new,form,English word
+204,old,knowledge,Choctaw
+205,new,form,English word
+206,new,form,English word
+207,old,knowledge,Mohave people
+208,new,form,English demonym
+209,new,form,personal name
+210,new,knowledge,French personal name
+211,new,form,English words
+212,unclear,knowledge,possibly a people's name; uncertain
+213,old,knowledge,Spokane people
+214,old,knowledge,Arikara people
+215,old,knowledge,carries the name Ohio (word is indigenous)
+216,old,knowledge,Choctaw
+217,old,knowledge,Algonquian
+218,new,form,personal name
+219,new,form,English word
+220,new,form,English words
+221,new,form,English words
+222,new,form,English word
+223,new,knowledge,Willamina Williams
+224,new,form,English word
+225,new,form,English word
+226,new,form,English word
+227,new,form,personal name
+228,new,form,English word
+229,new,knowledge,William Clark
+230,new,form,personal name
+231,old,knowledge,indigenous (Missouri valley)
+232,old,knowledge,Patwin
+233,old,form,Algonquian form
+234,new,form,English place name (Conant + ville)
+235,old,knowledge,Nez Perce
+236,new,form,English word
+237,new,form,Spanish word
+238,new,form,English words
+239,new,form,English word
+240,new,form,English word
+241,new,form,personal name
+242,old,knowledge,Algonquian
+243,new,form,Spanish words
+244,old,knowledge,Dakota
+245,old,knowledge,Navajo
+246,new,form,English word
+247,old,knowledge,Delaware
+248,new,form,English word
+249,old,knowledge,Chumash
+250,new,form,English word
+251,new,form,English words
+252,old,knowledge,Osage people
+253,old,gnis,more likely indigenous than Spanish per GNIS
+254,new,form,English word
+255,old,knowledge,Cowlitz people
+256,new,form,English demonym
+257,new,form,English word
+258,new,form,English word
+259,new,form,personal name
+260,old,knowledge,Muskogee
+261,old,knowledge,Algonquian
+262,new,gnis,Spanish
+263,old,gnis,Delaware/Shawnee
+264,old,knowledge,Santiam people
+265,old,knowledge,Choctaw/Chickasaw
+266,old,knowledge,Cherokee
+267,old,knowledge,Paiute
+268,old,gnis,Muskogee
+269,new,gnis,French
+270,old,knowledge,Patwin or Lake Miwok
+271,old,knowledge,Abenaki
+272,old,knowledge,Miami-Illinois
+273,old,knowledge,Choctaw
+274,old,knowledge,Algonquian
+275,new,form,personal name (McElroy)
+276,old,knowledge,Stillaguamish people
+277,old,knowledge,Pascagoula people
+278,new,form,English words
+279,new,form,English dialect word for ginseng
+280,old,knowledge,Potawatomi
+281,old,knowledge,Muskogean
+282,new,form,English word
+283,new,form,English word
+284,new,form,English word
+285,old,knowledge,Navajo people
+286,new,form,English word
+287,new,form,English word
+288,new,form,English words
+289,old,knowledge,Wampanoag
+290,new,form,English word
+291,old,form,Algonquian form
+292,old,knowledge,Santee people
+293,old,knowledge,Dakota
+294,new,form,English words
+295,new,form,Spanish word
+296,new,form,English words
+297,new,form,English loanword chinquapin (misspelled)
+298,new,knowledge,French personal name
+299,new,form,Spanish words
+300,new,form,English word
+301,new,form,English words
+302,new,form,personal name
+303,old,form,Algonquian form
+304,old,knowledge,Chumash
+305,new,form,English word
+306,new,form,personal name
+307,old,knowledge,Hopi
+308,old,knowledge,Tewa
+309,unclear,knowledge,"French 'mille coquins' or Ojibwe; disputed"
+310,old,knowledge,Wichita people
+311,new,knowledge,"corruption of French 'Embarras'"
+312,old,knowledge,Lakota
+313,new,form,English words
+314,old,gnis,Muskogee
+315,new,form,personal name
+316,new,form,English word
+317,new,gnis,English (sign-language rendering)
+318,new,form,biblical place name
+319,old,knowledge,Havasupai
+320,new,form,English word
+321,old,knowledge,indigenous (Louisiana)
+322,new,form,English word
+323,old,knowledge,Potawatomi
+324,new,form,English word
+325,new,form,English word
+326,old,knowledge,Penobscot
+327,old,gnis,Choctaw
+328,new,form,English word
+329,old,knowledge,Delaware
+330,new,form,English word
+331,unclear,form,origin unknown
+332,new,form,English word
+333,new,form,English words
+334,old,knowledge,Algonquian or Iroquoian
+335,old,knowledge,Muskogee
+336,unclear,form,origin unknown
+337,old,knowledge,indigenous (Louisiana)
+338,old,knowledge,O'odham
+339,new,form,English word
+340,new,form,English word
+341,new,form,English word
+342,new,form,English word
+343,new,knowledge,English
+344,old,knowledge,Tewa
+345,new,form,French word
+346,old,form,indigenous form
+347,new,form,English word
+348,new,form,English words
+349,new,form,English words
+350,new,form,English word
+351,old,knowledge,Ojibwe people
+352,new,form,English word
+353,new,form,English word
+354,new,form,Spanish saint
+355,new,form,English words
+356,new,form,English word
+357,new,form,English words
+358,new,form,English words
+359,new,form,English word
+360,old,knowledge,Lenape
+361,new,form,personal name
+362,old,knowledge,Muskogee
+363,unclear,form,origin unknown
+364,new,knowledge,Spanish
+365,new,form,English word
+366,old,knowledge,Salishan
+367,new,form,English words
+368,new,form,Spanish saint
+369,new,form,personal name
+370,new,form,personal name
+371,new,form,English word
+372,old,knowledge,Cheyenne people
+373,old,knowledge,Navajo
+374,new,knowledge,Greek mythology
+375,new,form,English word
+376,new,form,personal name
+377,unclear,knowledge,"Shawnee or Spanish sabana; disputed"
+378,unclear,form,possibly carried from the Pee Dee
+379,new,form,French word
+380,old,knowledge,Ojibwe people
+381,old,knowledge,Ojibwe
+382,new,gnis,John (Jack) Turner
+383,new,form,English words
+384,unclear,form,origin unknown
+385,new,gnis,translation of an indigenous name
+386,new,form,Spanish loanword in English
+387,new,form,English loanword
+388,old,knowledge,Delaware
+389,new,form,personal name
+390,old,knowledge,Oneida
+391,new,form,English word
+392,old,gnis,Muskogee
+393,old,knowledge,Snoqualmie people
+394,old,knowledge,Choctaw
+395,new,form,English word
+396,new,form,English word
+397,old,knowledge,Cherokee people
+398,new,knowledge,French personal name
+399,old,knowledge,Choctaw bok
+400,old,knowledge,Kaskaskia people

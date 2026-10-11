@@ -1,0 +1,42 @@
+ENGLAND
+  named rivers: 12,883
+  transparent     7,718
+  opaque          4,027
+  ekwall          825
+  no specific     213
+  ekwall-generic  100
+  transparency check on Ekwall's county labels:
+    newcomer names read as transparent: 51% (sensitivity)
+    pre-English names read as transparent: 38% (false newcomer rate)
+    pre-English names that look English: balder, biss, cairn, cam, camlad, cant, carrant, chalk, cock, corry, cray, devil's, erring, foss, gauze, gladder, glaze, glendue, glenridding, dart, nanny, perry, pilling, pow, powburgh
+
+UNITED STATES
+  named rivers: 178,812 (37,020 distinct specifics)
+  english         128,750
+  personal        26,447
+  opaque          5,485
+  spanish         3,461
+  french          3,400
+  native (model)  3,026
+  no specific     2,880
+  native (list)   2,755
+  dutch           1,842
+  german          249
+  hispanic        216
+  transferred     201
+  ethnonym        100
+  character model: 2,573 listed native words vs 14,299 surnames and foreign words
+    cross-validated AUC 0.958; at p >= 0.5, recall 85%, false positive rate 7%
+  listed native names found on rivers: 1,158; without the list the automatic steps give:
+    native (model)  71%
+    opaque          12%
+    ethnonym        9%
+    personal        3%
+    french          3%
+    spanish         1%
+    hispanic        0%
+    dutch           0%
+    english         0%
+  listed names the lexicon calls European: missouri (personal), tennessee (personal), cheyenne (french), alabama (personal), santee (personal), pee dee (english), savannah (personal), sioux (french), seneca (spanish), mohawk (french), chama (spanish), vermillion (personal), tensas (spanish), iroquois (french), teton (french), walla walla (personal), oneida (personal), lehigh (french), sandusky (personal), montezuma (hispanic), comanche (spanish), texas (personal), brule (french), huron (french), erie (personal), salamonie (personal), navajo (french), machias (personal), bogue homo (french), napa (spanish), comite (french), plaquemine b
+  model-native examples (largest rivers): Pecos River, Altamaha River, Congaree River, Neches River, Ocmulgee River, Wateree River, Ogeechee River, Satilla River, Pahranagat Wash, Toyah Creek, Middle Channel Muskegon River, Chariton River, Chariton River, Ochlockonee River, Ninnescah River, Navasota River, Oostanaula River, Pahranagat Creek, South Mokelumne River, Chikaskia River, Mokelumne River, Kiamichi River, Hassayampa River, Alapaha River, Tijuana River, Oswegatchie River, Topock Bay, Atascosa River, Canoochee River, Ohoopee River
+  opaque examples (largest rivers): Sheyenne River, Obion River, Gasconade River, Malad River, Mermentau River, Polacca Wash, Auglaize River, Nowood River, Fabius River, Greenbrier River, Lampasas River, Gauley River, Klickitat River, Vamori Wash, West Fork Silvies River, Bayou Dorcheat, Marmaton River, Lemhi River, Portneuf River, Naches River, Sanpoil River, Saint Vrain Creek, Silvies River, Dugdemona River, Bayou Grosbec, North Fabius River, Rillito River, Harpeth River, Mustinka River, Jeddito Wash

@@ -1,0 +1,31 @@
+audit names: 400; unclear: 25
+  share truly old, by size band and label (Wilson 95% CI):
+    <10     labelled old       n= 27  truly old  55.6% [37%, 72%]
+    <10     labelled newcomer  n= 40  truly old   0.0% [-0%, 9%]
+    10-100  labelled old       n= 34  truly old  97.1% [85%, 99%]
+    10-100  labelled newcomer  n= 40  truly old   0.0% [-0%, 9%]
+    100-1k  labelled old       n= 38  truly old  89.5% [76%, 96%]
+    100-1k  labelled newcomer  n= 40  truly old   0.0% [-0%, 9%]
+    1k-10k  labelled old       n= 40  truly old  95.0% [83%, 99%]
+    1k-10k  labelled newcomer  n= 38  truly old   0.0% [0%, 9%]
+    >10k    labelled old       n= 38  truly old 100.0% [91%, 100%]
+    >10k    labelled newcomer  n= 40  truly old   0.0% [-0%, 9%]
+  overall: labelled-old names truly old 89%; labelled-newcomer names truly old 0.0%
+  audit labels agree with the GNIS history rule on 95% of 21 names where both exist
+  P(truly old) used for the correction (audit cells, Jeffreys prior):
+    <10     labelled old 0.55   labelled newcomer 0.012   (GNIS-based miss rate 0.113)
+    10-100  labelled old 0.96   labelled newcomer 0.012   (GNIS-based miss rate 0.144)
+    100-1k  labelled old 0.88   labelled newcomer 0.012   (GNIS-based miss rate 0.230)
+    1k-10k  labelled old 0.94   labelled newcomer 0.013   (GNIS-based miss rate 0.054)
+    >10k    labelled old 0.99   labelled newcomer 0.012   (GNIS-based miss rate 0.139)
+  retention curve, all US rivers (cluster-robust by HUC4):
+    as labelled:            odds ratio per 10x 3.05, half old at 24,650 km2
+    corrected for accuracy: odds ratio per 10x 2.60 [2.47, 2.75], half old at 45,196 km2 [31,126, 66,022] (interval from resampling the audit)
+    corrected, misses at GNIS rates (pessimistic): odds ratio per 10x 1.67, half old at 27,337 km2
+  corrected, by region (audit rates / GNIS miss rates):
+    Colonial East (Atlantic slope)       odds ratio 4.32 / 2.20, half old at 1,679 / 1,465 km2
+    Southeast interior                   odds ratio 3.72 / 1.90, half old at 4,775 / 5,393 km2
+    Ohio-Great Lakes-Upper Mississippi   odds ratio 2.68 / 1.65, half old at 55,618 / 41,169 km2
+    Plains                               odds ratio 1.83 / 1.39, half old at 13,481,495 / 1,957,097 km2
+    Spanish Southwest                    odds ratio 1.94 / 1.51, half old at 617,157 / 127,833 km2
+    Mountain and Pacific West            odds ratio 2.04 / 1.54, half old at 836,354 / 143,046 km2
