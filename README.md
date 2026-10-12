@@ -96,6 +96,8 @@ In every version the corrected regional order is the same: Colonial East first, 
 
 ## Data
 
+> The raw inputs are not in this repository. [DATA.md](DATA.md) records exactly which files were used, with sizes and fingerprints, and how to re-fetch them.
+
 | Source | What | Access |
 |---|---|---|
 | [OS Open Rivers](https://www.ordnancesurvey.co.uk/products/os-open-rivers) | 193,040 watercourse links for Great Britain, with names | Open Government Licence |
